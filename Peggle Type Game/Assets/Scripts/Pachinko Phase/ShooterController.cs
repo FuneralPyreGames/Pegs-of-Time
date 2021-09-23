@@ -10,6 +10,7 @@ public class ShooterController : MonoBehaviour
     public float Speed = 100f;
     public float ballForce = 100f;
     private Vector3 movement;
+    public PachinkoData pachinkoData;
     private void Start()
     {
         //Time.timeScale = 1f;
@@ -41,6 +42,10 @@ public class ShooterController : MonoBehaviour
     }
     private void ShootBall()
     {
+        pachinkoData.balls -= 1;
+        pachinkoData.ballsText.text = "";
+        pachinkoData.ballsText.text += pachinkoData.balls;
+        pachinkoData.ballsText.text += " Balls";
         GameObject ball = Instantiate(ballPrefab, gameObject.transform.position, gameObject.transform.rotation);
         Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * ballForce, ForceMode2D.Impulse);

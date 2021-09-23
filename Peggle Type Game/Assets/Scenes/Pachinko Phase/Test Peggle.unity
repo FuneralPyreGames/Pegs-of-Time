@@ -777,7 +777,7 @@ RectTransform:
   - {fileID: 1492793694}
   - {fileID: 270158226}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1513,9 +1513,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '10 Balls
-
-    21/25 Gold Balls'
+  m_text: 10 Balls
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2373,6 +2371,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449a75b0206ff41c0a1d009b56c62c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &331823352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331823354}
+  - component: {fileID: 331823353}
+  m_Layer: 0
+  m_Name: PachinkoData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &331823353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331823352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0ffa7e72b9c467e9e2795c34fa6a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balls: 10
+  ballsText: {fileID: 270158227}
+--- !u!4 &331823354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331823352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0239825, y: 0.2661574, z: -19.233221}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &339579948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2807,6 +2850,7 @@ MonoBehaviour:
   firePoint: {fileID: 1593043268}
   Speed: 100
   ballForce: 10
+  pachinkoData: {fileID: 331823353}
 --- !u!1 &444951371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2983,7 +3027,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &506229737
 GameObject:
@@ -4565,7 +4609,7 @@ Transform:
   - {fileID: 2070268880}
   - {fileID: 939267087}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &783460667
 GameObject:
@@ -5267,7 +5311,7 @@ Transform:
   - {fileID: 1216209568}
   - {fileID: 686661851}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &978730094
 GameObject:
@@ -8056,7 +8100,7 @@ Transform:
   - {fileID: 1899249840}
   - {fileID: 370399935}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1377539158
 Rigidbody2D:
@@ -10141,7 +10185,7 @@ Transform:
   - {fileID: 1088978972}
   - {fileID: 601252776}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1573942897
 GameObject:
@@ -12121,7 +12165,7 @@ Transform:
   - {fileID: 1380164231}
   - {fileID: 430273094}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875175715
 GameObject:

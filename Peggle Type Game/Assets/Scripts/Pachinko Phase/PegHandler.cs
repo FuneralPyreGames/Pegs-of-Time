@@ -17,6 +17,13 @@ public class PegHandler : MonoBehaviour
     }
 
     void OnCollisionExit2D(Collision2D collision){
+        StartCoroutine(PegDisappear());
+    }
+
+    IEnumerator PegDisappear(){
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        sr.color = new Color(0,0,0,0.5f);
+        yield return new WaitForSeconds(0.25f);
         gameObject.SetActive(false);
     }
 }
