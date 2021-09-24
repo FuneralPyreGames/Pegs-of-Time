@@ -20,13 +20,30 @@ public class BallHandler : MonoBehaviour
             ballRb.velocity = Vector3.ClampMagnitude(ballRb.velocity, maxSpeed);
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Left Wall")
+        {
+            pachinkoData.PlayAudio(2);
+        }
+        if (collision.gameObject.name == "Right Wall")
+        {
+            pachinkoData.PlayAudio(2);
+        }
+        if (collision.gameObject.name == "Top Wall")
+        {
+            pachinkoData.PlayAudio(2);
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D collision){
         if (collision.name == "BallCollider"){
-            pachinkoData.isAbleToShoot = true;
+            pachinkoData.PlayAudio(4);
+            pachinkoData.SetAbleToShoot();
             Destroy(gameObject);
         }
         if (collision.name == "FreeBallBucket Collider"){
+            pachinkoData.PlayAudio(3);
             pachinkoData.balls += 1;
             pachinkoData.SetAbleToShoot();
             pachinkoData.SetBallCount();

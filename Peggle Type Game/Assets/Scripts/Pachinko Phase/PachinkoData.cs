@@ -8,6 +8,8 @@ public class PachinkoData : MonoBehaviour
     public int balls = 10;
     public bool isAbleToShoot = true;
     public TextMeshProUGUI ballsText;
+    public Animator failAnim;
+    public PachinkoAudio pachinkoAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,5 +32,14 @@ public class PachinkoData : MonoBehaviour
         if (balls > 0){
             isAbleToShoot = true;
         }
+        else if (balls <= 0)
+        {
+            isAbleToShoot = false;
+            failAnim.SetTrigger("HasFailed");
+        }
+    }
+    public void PlayAudio(int input)
+    {
+        pachinkoAudio.PlayNoise(input);
     }
 }
