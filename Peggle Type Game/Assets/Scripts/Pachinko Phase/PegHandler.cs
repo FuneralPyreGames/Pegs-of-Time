@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PegHandler : MonoBehaviour
 {
+    [SerializeField]Animator pegAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,13 +18,15 @@ public class PegHandler : MonoBehaviour
     }
 
     void OnCollisionExit2D(Collision2D collision){
-        StartCoroutine(PegDisappear());
+        StartCoroutine(NewPegDisappear());
     }
 
-    IEnumerator PegDisappear(){
-        SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        sr.color = new Color(0,0,0,0.5f);
-        yield return new WaitForSeconds(0.25f);
+    IEnumerator NewPegDisappear(){
+        CircleCollider2D cc2D = gameObject.GetComponent<CircleCollider2D>();
+        cc2D.enabled = false;
+        pegAnim = gameObject.GetComponent<Animator>();
+        pegAnim.SetTrigger("Peg Hit");
+        yield return new WaitForSeconds(1.417f);
         gameObject.SetActive(false);
     }
 }

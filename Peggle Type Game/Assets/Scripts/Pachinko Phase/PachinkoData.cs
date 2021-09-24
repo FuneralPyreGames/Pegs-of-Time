@@ -6,6 +6,7 @@ using TMPro;
 public class PachinkoData : MonoBehaviour
 {
     public int balls = 10;
+    public bool isAbleToShoot = true;
     public TextMeshProUGUI ballsText;
     // Start is called before the first frame update
     void Start()
@@ -17,5 +18,17 @@ public class PachinkoData : MonoBehaviour
     void Update()
     {
         
+    }
+    public void SetBallCount()
+    {
+        ballsText.text = "";
+        ballsText.text += balls;
+        ballsText.text += " Balls";
+    }
+    public void SetAbleToShoot()
+    {
+        if (balls > 0){
+            isAbleToShoot = true;
+        }
     }
 }

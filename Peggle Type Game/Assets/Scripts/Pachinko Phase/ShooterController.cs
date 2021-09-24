@@ -20,7 +20,9 @@ public class ShooterController : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         if (Input.GetKeyDown("space"))
         {
-            ShootBall();
+            if (pachinkoData.isAbleToShoot == true){
+                ShootBall();
+            }
         }
         if (gameObject.transform.position.x < -0.334)
         {
@@ -34,7 +36,6 @@ public class ShooterController : MonoBehaviour
             Quaternion needQuat = Quaternion.Euler(0, 0, 244);
             gameObject.transform.rotation = needQuat;
         }
-        Debug.Log(gameObject.transform.position.x);
     }
     private void FixedUpdate()
     {
@@ -42,10 +43,9 @@ public class ShooterController : MonoBehaviour
     }
     private void ShootBall()
     {
+        pachinkoData.isAbleToShoot = false;
         pachinkoData.balls -= 1;
-        pachinkoData.ballsText.text = "";
-        pachinkoData.ballsText.text += pachinkoData.balls;
-        pachinkoData.ballsText.text += " Balls";
+        pachinkoData.SetBallCount();
         GameObject ball = Instantiate(ballPrefab, gameObject.transform.position, gameObject.transform.rotation);
         Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * ballForce, ForceMode2D.Impulse);
