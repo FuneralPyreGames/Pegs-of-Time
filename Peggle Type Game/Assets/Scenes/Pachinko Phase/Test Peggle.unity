@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 907806}
   m_Layer: 0
   m_Name: Circle (5)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,6 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &907806
 Animator:
   serializedVersion: 3
@@ -271,7 +272,7 @@ GameObject:
   - component: {fileID: 7293553}
   m_Layer: 0
   m_Name: Circle (3)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -370,6 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &7293553
 Animator:
   serializedVersion: 3
@@ -404,7 +406,7 @@ GameObject:
   - component: {fileID: 28693102}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -503,6 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &28693102
 Animator:
   serializedVersion: 3
@@ -537,7 +540,7 @@ GameObject:
   - component: {fileID: 33467169}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -636,6 +639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &33467169
 Animator:
   serializedVersion: 3
@@ -670,7 +674,7 @@ GameObject:
   - component: {fileID: 53485836}
   m_Layer: 0
   m_Name: Circle (17)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -769,6 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &53485836
 Animator:
   serializedVersion: 3
@@ -882,6 +887,7 @@ RectTransform:
   - {fileID: 1492793694}
   - {fileID: 270158226}
   - {fileID: 795409008}
+  - {fileID: 860624888}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -905,7 +911,7 @@ GameObject:
   - component: {fileID: 141376068}
   m_Layer: 0
   m_Name: Circle (16)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1004,6 +1010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &141376068
 Animator:
   serializedVersion: 3
@@ -1038,7 +1045,7 @@ GameObject:
   - component: {fileID: 151325603}
   m_Layer: 0
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1137,6 +1144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &151325603
 Animator:
   serializedVersion: 3
@@ -1171,7 +1179,7 @@ GameObject:
   - component: {fileID: 207529408}
   m_Layer: 0
   m_Name: Circle (19)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1270,6 +1278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &207529408
 Animator:
   serializedVersion: 3
@@ -1304,7 +1313,7 @@ GameObject:
   - component: {fileID: 227564947}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1403,6 +1412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &227564947
 Animator:
   serializedVersion: 3
@@ -1437,7 +1447,7 @@ GameObject:
   - component: {fileID: 241533036}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1536,6 +1546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &241533036
 Animator:
   serializedVersion: 3
@@ -1570,7 +1581,7 @@ GameObject:
   - component: {fileID: 267519628}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1669,6 +1680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &267519628
 Animator:
   serializedVersion: 3
@@ -1837,7 +1849,7 @@ GameObject:
   - component: {fileID: 275066519}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1936,6 +1948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &275066519
 Animator:
   serializedVersion: 3
@@ -2079,7 +2092,7 @@ GameObject:
   - component: {fileID: 293216623}
   m_Layer: 0
   m_Name: Circle (3)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2178,6 +2191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &293216623
 Animator:
   serializedVersion: 3
@@ -2212,7 +2226,7 @@ GameObject:
   - component: {fileID: 302850555}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2311,6 +2325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &302850555
 Animator:
   serializedVersion: 3
@@ -2345,7 +2360,7 @@ GameObject:
   - component: {fileID: 306654150}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2444,6 +2459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &306654150
 Animator:
   serializedVersion: 3
@@ -2535,7 +2551,7 @@ GameObject:
   - component: {fileID: 315401637}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2634,6 +2650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &315401637
 Animator:
   serializedVersion: 3
@@ -2668,7 +2685,7 @@ GameObject:
   - component: {fileID: 329423581}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2767,6 +2784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &329423581
 Animator:
   serializedVersion: 3
@@ -2796,6 +2814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 331823354}
   - component: {fileID: 331823353}
+  - component: {fileID: 331823355}
   m_Layer: 0
   m_Name: PachinkoData
   m_TagString: Untagged
@@ -2817,9 +2836,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balls: 10
   isAbleToShoot: 1
+  goldPegsLeft: 25
   ballsText: {fileID: 270158227}
   failAnim: {fileID: 795409009}
+  winAnim: {fileID: 860624891}
   pachinkoAudio: {fileID: 628307885}
+  pegAssigner: {fileID: 331823355}
 --- !u!4 &331823354
 Transform:
   m_ObjectHideFlags: 0
@@ -2834,6 +2856,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331823355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331823352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7910a6c8681a7446bb07cf7a18dfac8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pegs: []
 --- !u!1 &339579948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,7 +2884,7 @@ GameObject:
   - component: {fileID: 339579953}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2948,6 +2983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &339579953
 Animator:
   serializedVersion: 3
@@ -3091,7 +3127,7 @@ GameObject:
   - component: {fileID: 394233976}
   m_Layer: 0
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3190,6 +3226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &394233976
 Animator:
   serializedVersion: 3
@@ -3326,7 +3363,7 @@ GameObject:
   - component: {fileID: 444951376}
   m_Layer: 0
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3425,6 +3462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &444951376
 Animator:
   serializedVersion: 3
@@ -3525,7 +3563,7 @@ GameObject:
   - component: {fileID: 506229742}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3624,6 +3662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &506229742
 Animator:
   serializedVersion: 3
@@ -3741,7 +3780,7 @@ GameObject:
   - component: {fileID: 525570184}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3840,6 +3879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &525570184
 Animator:
   serializedVersion: 3
@@ -3874,7 +3914,7 @@ GameObject:
   - component: {fileID: 552890560}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3973,6 +4013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &552890560
 Animator:
   serializedVersion: 3
@@ -4007,7 +4048,7 @@ GameObject:
   - component: {fileID: 555642586}
   m_Layer: 0
   m_Name: Circle (15)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4106,6 +4147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &555642586
 Animator:
   serializedVersion: 3
@@ -4140,7 +4182,7 @@ GameObject:
   - component: {fileID: 561082281}
   m_Layer: 0
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4239,6 +4281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &561082281
 Animator:
   serializedVersion: 3
@@ -4315,7 +4358,7 @@ GameObject:
   - component: {fileID: 592980595}
   m_Layer: 0
   m_Name: Test Peg 2
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4414,6 +4457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 592980595}
+  GoldPeg: 0
 --- !u!95 &592980595
 Animator:
   serializedVersion: 3
@@ -4448,7 +4492,7 @@ GameObject:
   - component: {fileID: 593294973}
   m_Layer: 0
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4547,6 +4591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &593294973
 Animator:
   serializedVersion: 3
@@ -4623,7 +4668,7 @@ GameObject:
   - component: {fileID: 617614751}
   m_Layer: 0
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4722,6 +4767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &617614751
 Animator:
   serializedVersion: 3
@@ -4901,7 +4947,7 @@ GameObject:
   - component: {fileID: 663444832}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5000,6 +5046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &663444832
 Animator:
   serializedVersion: 3
@@ -5143,7 +5190,7 @@ GameObject:
   - component: {fileID: 721729019}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5242,6 +5289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &721729019
 Animator:
   serializedVersion: 3
@@ -5276,7 +5324,7 @@ GameObject:
   - component: {fileID: 722182719}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5375,6 +5423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &722182719
 Animator:
   serializedVersion: 3
@@ -5441,7 +5490,7 @@ GameObject:
   - component: {fileID: 783460672}
   m_Layer: 0
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5540,6 +5589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &783460672
 Animator:
   serializedVersion: 3
@@ -5574,7 +5624,7 @@ GameObject:
   - component: {fileID: 786192715}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5673,6 +5723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &786192715
 Animator:
   serializedVersion: 3
@@ -5862,7 +5913,7 @@ GameObject:
   - component: {fileID: 829063654}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5961,6 +6012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &829063654
 Animator:
   serializedVersion: 3
@@ -5995,7 +6047,7 @@ GameObject:
   - component: {fileID: 830711701}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6094,6 +6146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &830711701
 Animator:
   serializedVersion: 3
@@ -6105,6 +6158,161 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2764410a885d04c20af96ef8511c46f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &860624887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 860624888}
+  - component: {fileID: 860624890}
+  - component: {fileID: 860624889}
+  - component: {fileID: 860624891}
+  m_Layer: 5
+  m_Name: You Win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &860624888
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860624887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1195014486}
+  m_Father: {fileID: 86526640}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2000, y: 150}
+  m_SizeDelta: {x: 800, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &860624889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860624887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: You Win!
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 143
+  m_fontSizeBase: 143
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &860624890
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860624887}
+  m_CullTransparentMesh: 1
+--- !u!95 &860624891
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860624887}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b8ade09196e874f7d96776e6d00a7089, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6128,7 +6336,7 @@ GameObject:
   - component: {fileID: 865659612}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6227,6 +6435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &865659612
 Animator:
   serializedVersion: 3
@@ -6403,7 +6612,7 @@ GameObject:
   - component: {fileID: 978730099}
   m_Layer: 0
   m_Name: Circle (15)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6502,6 +6711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &978730099
 Animator:
   serializedVersion: 3
@@ -6536,7 +6746,7 @@ GameObject:
   - component: {fileID: 980607891}
   m_Layer: 0
   m_Name: Circle (15)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6635,6 +6845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &980607891
 Animator:
   serializedVersion: 3
@@ -6705,7 +6916,7 @@ GameObject:
   - component: {fileID: 990875327}
   m_Layer: 0
   m_Name: Circle (15)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6804,6 +7015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &990875327
 Animator:
   serializedVersion: 3
@@ -6838,7 +7050,7 @@ GameObject:
   - component: {fileID: 1005753064}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6937,6 +7149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1005753064
 Animator:
   serializedVersion: 3
@@ -6971,7 +7184,7 @@ GameObject:
   - component: {fileID: 1040559131}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7070,6 +7283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1040559131
 Animator:
   serializedVersion: 3
@@ -7138,7 +7352,7 @@ GameObject:
   - component: {fileID: 1107363879}
   m_Layer: 0
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7237,6 +7451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1107363879
 Animator:
   serializedVersion: 3
@@ -7271,7 +7486,7 @@ GameObject:
   - component: {fileID: 1130061759}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7370,6 +7585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1130061759
 Animator:
   serializedVersion: 3
@@ -7404,7 +7620,7 @@ GameObject:
   - component: {fileID: 1130152796}
   m_Layer: 0
   m_Name: Circle (17)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7503,6 +7719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1130152796
 Animator:
   serializedVersion: 3
@@ -7537,7 +7754,7 @@ GameObject:
   - component: {fileID: 1157726858}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7636,6 +7853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1157726858
 Animator:
   serializedVersion: 3
@@ -7670,7 +7888,7 @@ GameObject:
   - component: {fileID: 1182625193}
   m_Layer: 0
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7769,6 +7987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1182625193
 Animator:
   serializedVersion: 3
@@ -7803,7 +8022,7 @@ GameObject:
   - component: {fileID: 1192136089}
   m_Layer: 0
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7902,6 +8121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1192136089
 Animator:
   serializedVersion: 3
@@ -7921,6 +8141,160 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1195014485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195014486}
+  - component: {fileID: 1195014489}
+  - component: {fileID: 1195014488}
+  - component: {fileID: 1195014487}
+  m_Layer: 5
+  m_Name: Continue Prompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1195014486
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195014485}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 860624888}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -306.8}
+  m_SizeDelta: {x: 1100, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1195014487
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195014485}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bab10fc9fb76a6d4fad0516aba4faced, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1195014488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195014485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Press enter to continue
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 100
+  m_fontSizeBase: 100
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1195014489
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195014485}
+  m_CullTransparentMesh: 1
 --- !u!1 &1196603129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7936,7 +8310,7 @@ GameObject:
   - component: {fileID: 1196603134}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8035,6 +8409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1196603134
 Animator:
   serializedVersion: 3
@@ -8069,7 +8444,7 @@ GameObject:
   - component: {fileID: 1197626892}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8168,6 +8543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1197626892
 Animator:
   serializedVersion: 3
@@ -8202,7 +8578,7 @@ GameObject:
   - component: {fileID: 1198292898}
   m_Layer: 0
   m_Name: Circle (15)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8301,6 +8677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1198292898
 Animator:
   serializedVersion: 3
@@ -8335,7 +8712,7 @@ GameObject:
   - component: {fileID: 1202758019}
   m_Layer: 0
   m_Name: Circle (4)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8434,6 +8811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1202758019
 Animator:
   serializedVersion: 3
@@ -8577,7 +8955,7 @@ GameObject:
   - component: {fileID: 1240830842}
   m_Layer: 0
   m_Name: Circle (17)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8676,6 +9054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1240830842
 Animator:
   serializedVersion: 3
@@ -8710,7 +9089,7 @@ GameObject:
   - component: {fileID: 1252504977}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8809,6 +9188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1252504977
 Animator:
   serializedVersion: 3
@@ -8843,7 +9223,7 @@ GameObject:
   - component: {fileID: 1254107665}
   m_Layer: 0
   m_Name: Circle (16)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8942,6 +9322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1254107665
 Animator:
   serializedVersion: 3
@@ -8976,7 +9357,7 @@ GameObject:
   - component: {fileID: 1259572551}
   m_Layer: 0
   m_Name: Circle (6)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9075,6 +9456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1259572551
 Animator:
   serializedVersion: 3
@@ -9109,7 +9491,7 @@ GameObject:
   - component: {fileID: 1267852909}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9208,6 +9590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1267852909
 Animator:
   serializedVersion: 3
@@ -9242,7 +9625,7 @@ GameObject:
   - component: {fileID: 1271153222}
   m_Layer: 0
   m_Name: Circle (4)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9341,6 +9724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1271153222
 Animator:
   serializedVersion: 3
@@ -9432,7 +9816,7 @@ GameObject:
   - component: {fileID: 1330458111}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9531,6 +9915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1330458111
 Animator:
   serializedVersion: 3
@@ -9565,7 +9950,7 @@ GameObject:
   - component: {fileID: 1361647189}
   m_Layer: 0
   m_Name: Circle (6)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9664,6 +10049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1361647189
 Animator:
   serializedVersion: 3
@@ -9855,7 +10241,7 @@ GameObject:
   - component: {fileID: 1386095174}
   m_Layer: 0
   m_Name: Circle (6)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9954,6 +10340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1386095174
 Animator:
   serializedVersion: 3
@@ -9988,7 +10375,7 @@ GameObject:
   - component: {fileID: 1401032781}
   m_Layer: 0
   m_Name: Circle (4)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10087,6 +10474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1401032781
 Animator:
   serializedVersion: 3
@@ -10121,7 +10509,7 @@ GameObject:
   - component: {fileID: 1405602089}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10220,6 +10608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1405602089
 Animator:
   serializedVersion: 3
@@ -10254,7 +10643,7 @@ GameObject:
   - component: {fileID: 1414559194}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10353,6 +10742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1414559194
 Animator:
   serializedVersion: 3
@@ -10392,7 +10782,7 @@ GameObject:
   - component: {fileID: 1423685847}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10491,6 +10881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1423685847
 Animator:
   serializedVersion: 3
@@ -10525,7 +10916,7 @@ GameObject:
   - component: {fileID: 1424930752}
   m_Layer: 0
   m_Name: Circle (5)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10624,6 +11015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1424930752
 Animator:
   serializedVersion: 3
@@ -10658,7 +11050,7 @@ GameObject:
   - component: {fileID: 1427165316}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10757,6 +11149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1427165316
 Animator:
   serializedVersion: 3
@@ -10791,7 +11184,7 @@ GameObject:
   - component: {fileID: 1429850118}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10890,6 +11283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1429850118
 Animator:
   serializedVersion: 3
@@ -10924,7 +11318,7 @@ GameObject:
   - component: {fileID: 1455613276}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11023,6 +11417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1455613276
 Animator:
   serializedVersion: 3
@@ -11325,7 +11720,7 @@ GameObject:
   - component: {fileID: 1503698163}
   m_Layer: 0
   m_Name: Circle (15)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11424,6 +11819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1503698163
 Animator:
   serializedVersion: 3
@@ -11458,7 +11854,7 @@ GameObject:
   - component: {fileID: 1510506419}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11557,6 +11953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1510506419
 Animator:
   serializedVersion: 3
@@ -11591,7 +11988,7 @@ GameObject:
   - component: {fileID: 1510828231}
   m_Layer: 0
   m_Name: Circle (6)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11690,6 +12087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1510828231
 Animator:
   serializedVersion: 3
@@ -11724,7 +12122,7 @@ GameObject:
   - component: {fileID: 1521904076}
   m_Layer: 0
   m_Name: Circle (18)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11823,6 +12221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1521904076
 Animator:
   serializedVersion: 3
@@ -11857,7 +12256,7 @@ GameObject:
   - component: {fileID: 1526315882}
   m_Layer: 0
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11956,6 +12355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1526315882
 Animator:
   serializedVersion: 3
@@ -12029,7 +12429,7 @@ GameObject:
   - component: {fileID: 1573942902}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12128,6 +12528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1573942902
 Animator:
   serializedVersion: 3
@@ -12162,7 +12563,7 @@ GameObject:
   - component: {fileID: 1577235299}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12261,6 +12662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1577235299
 Animator:
   serializedVersion: 3
@@ -12413,7 +12815,7 @@ GameObject:
   - component: {fileID: 1603505225}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12512,6 +12914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1603505225
 Animator:
   serializedVersion: 3
@@ -12546,7 +12949,7 @@ GameObject:
   - component: {fileID: 1623524981}
   m_Layer: 0
   m_Name: Circle (16)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12645,6 +13048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1623524981
 Animator:
   serializedVersion: 3
@@ -12723,7 +13127,7 @@ GameObject:
   - component: {fileID: 1702162275}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12822,6 +13226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1702162275
 Animator:
   serializedVersion: 3
@@ -12856,7 +13261,7 @@ GameObject:
   - component: {fileID: 1719741454}
   m_Layer: 0
   m_Name: Circle (18)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12955,6 +13360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1719741454
 Animator:
   serializedVersion: 3
@@ -12989,7 +13395,7 @@ GameObject:
   - component: {fileID: 1719878788}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13088,6 +13494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1719878788
 Animator:
   serializedVersion: 3
@@ -13122,7 +13529,7 @@ GameObject:
   - component: {fileID: 1728493319}
   m_Layer: 0
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13221,6 +13628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1728493319
 Animator:
   serializedVersion: 3
@@ -13255,7 +13663,7 @@ GameObject:
   - component: {fileID: 1728551297}
   m_Layer: 0
   m_Name: Circle (6)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13354,6 +13762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1728551297
 Animator:
   serializedVersion: 3
@@ -13388,7 +13797,7 @@ GameObject:
   - component: {fileID: 1741933677}
   m_Layer: 0
   m_Name: Circle (5)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13487,6 +13896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1741933677
 Animator:
   serializedVersion: 3
@@ -13521,7 +13931,7 @@ GameObject:
   - component: {fileID: 1776483110}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13620,6 +14030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1776483110
 Animator:
   serializedVersion: 3
@@ -13654,7 +14065,7 @@ GameObject:
   - component: {fileID: 1805537286}
   m_Layer: 0
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13753,6 +14164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1805537286
 Animator:
   serializedVersion: 3
@@ -13787,7 +14199,7 @@ GameObject:
   - component: {fileID: 1812941587}
   m_Layer: 0
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13886,6 +14298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1812941587
 Animator:
   serializedVersion: 3
@@ -13920,7 +14333,7 @@ GameObject:
   - component: {fileID: 1826112355}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14019,6 +14432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1826112355
 Animator:
   serializedVersion: 3
@@ -14053,7 +14467,7 @@ GameObject:
   - component: {fileID: 1857538674}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14152,6 +14566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1857538674
 Animator:
   serializedVersion: 3
@@ -14186,7 +14601,7 @@ GameObject:
   - component: {fileID: 1860781176}
   m_Layer: 0
   m_Name: Circle (6)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14285,6 +14700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1860781176
 Animator:
   serializedVersion: 3
@@ -14351,7 +14767,7 @@ GameObject:
   - component: {fileID: 1875175720}
   m_Layer: 0
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14450,6 +14866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1875175720
 Animator:
   serializedVersion: 3
@@ -14484,7 +14901,7 @@ GameObject:
   - component: {fileID: 1883605375}
   m_Layer: 0
   m_Name: Circle (16)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14583,6 +15000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1883605375
 Animator:
   serializedVersion: 3
@@ -14617,7 +15035,7 @@ GameObject:
   - component: {fileID: 1886951100}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14716,6 +15134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1886951100
 Animator:
   serializedVersion: 3
@@ -14904,7 +15323,7 @@ GameObject:
   - component: {fileID: 1903566312}
   m_Layer: 0
   m_Name: Circle (5)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15003,6 +15422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1903566312
 Animator:
   serializedVersion: 3
@@ -15037,7 +15457,7 @@ GameObject:
   - component: {fileID: 1904703872}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15136,6 +15556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1904703872
 Animator:
   serializedVersion: 3
@@ -15170,7 +15591,7 @@ GameObject:
   - component: {fileID: 1920505622}
   m_Layer: 0
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15269,6 +15690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1920505622
 Animator:
   serializedVersion: 3
@@ -15303,7 +15725,7 @@ GameObject:
   - component: {fileID: 1921915074}
   m_Layer: 0
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15402,6 +15824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1921915074
 Animator:
   serializedVersion: 3
@@ -15436,7 +15859,7 @@ GameObject:
   - component: {fileID: 1963593537}
   m_Layer: 0
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15535,6 +15958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &1963593537
 Animator:
   serializedVersion: 3
@@ -15678,7 +16102,7 @@ GameObject:
   - component: {fileID: 2074566855}
   m_Layer: 0
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15777,6 +16201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &2074566855
 Animator:
   serializedVersion: 3
@@ -15811,7 +16236,7 @@ GameObject:
   - component: {fileID: 2099483449}
   m_Layer: 0
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Pegs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15910,6 +16335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegAnim: {fileID: 0}
+  GoldPeg: 0
 --- !u!95 &2099483449
 Animator:
   serializedVersion: 3
@@ -15983,6 +16409,10 @@ PrefabInstance:
     - target: {fileID: 8838911325866566981, guid: 442f2487a45ff48498937903371562d6, type: 3}
       propertyPath: m_Name
       value: Test Peg
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838911325866566981, guid: 442f2487a45ff48498937903371562d6, type: 3}
+      propertyPath: m_TagString
+      value: Pegs
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 442f2487a45ff48498937903371562d6, type: 3}

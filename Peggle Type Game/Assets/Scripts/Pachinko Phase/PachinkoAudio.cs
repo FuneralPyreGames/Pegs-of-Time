@@ -24,11 +24,9 @@ public class PachinkoAudio : MonoBehaviour
         switch (selection)
         {
             case 1:
-                Debug.Log("Playing ball hit soundeffect");
                 audioSource.PlayOneShot(pegHitSFX, .5f);
                 break;
             case 2:
-                Debug.Log("Playing wall hit soundeffect");
                 audioSource.PlayOneShot(wallHitSFX, .5f);
                 break;
             case 3:

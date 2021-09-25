@@ -6,16 +6,15 @@ public class PegHandler : MonoBehaviour
 {
     [SerializeField]Animator pegAnim;
     private PachinkoData pachinkoData;
+    public bool GoldPeg;
     // Start is called before the first frame update
     void Start()
     {
         pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void setGoldPeg(){
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        sr.color = new Color(225,228,0,0);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -25,8 +24,11 @@ public class PegHandler : MonoBehaviour
     void OnCollisionExit2D(Collision2D collision){
         StartCoroutine(NewPegDisappear());
     }
-
+    void CheckPegState(){
+        pachinkoData.CheckPegState(GoldPeg);
+    }
     IEnumerator NewPegDisappear(){
+        CheckPegState();
         CircleCollider2D cc2D = gameObject.GetComponent<CircleCollider2D>();
         cc2D.enabled = false;
         pegAnim = gameObject.GetComponent<Animator>();
