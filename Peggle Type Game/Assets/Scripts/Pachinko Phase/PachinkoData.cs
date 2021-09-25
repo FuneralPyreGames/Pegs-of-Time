@@ -17,10 +17,6 @@ public class PachinkoData : MonoBehaviour
     {
         pegAssigner.AssignGoldPegs();
     }
-    void Update()
-    {
-        
-    }
     public void CheckPegState(bool goldPeg){
         if (goldPeg == true){
             goldPegsLeft -= 1;
