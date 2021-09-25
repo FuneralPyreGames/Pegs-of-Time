@@ -18,7 +18,13 @@ public class PegHandler : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        pachinkoData.PlayAudio(1);
+        if (GoldPeg == false){
+            pachinkoData.PlayAudio(1);
+        }
+        else if (GoldPeg == true){
+            pachinkoData.PlayAudio(5);
+        }
+        
         StartCoroutine(Failsafe());
     }
     void OnCollisionExit2D(Collision2D collision){

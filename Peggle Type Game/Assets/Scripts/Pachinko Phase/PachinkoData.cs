@@ -11,7 +11,7 @@ public class PachinkoData : MonoBehaviour
     public TextMeshProUGUI ballsText;
     public Animator failAnim;
     public Animator winAnim;
-    public PachinkoAudio pachinkoAudio;
+    public Audio pachinkoAudio;
     public PegAssigner pegAssigner;
     void Start()
     {
@@ -26,9 +26,11 @@ public class PachinkoData : MonoBehaviour
         }
     }
     public void Win(){
+        isAbleToShoot = false;
         winAnim.SetTrigger("GameWon");
     }
     public void Lose(){
+        isAbleToShoot = false;
         failAnim.SetTrigger("HasFailed");
     }
     public void SetBallCount()
@@ -50,6 +52,6 @@ public class PachinkoData : MonoBehaviour
     }
     public void PlayAudio(int input)
     {
-        pachinkoAudio.PlayNoise(input);
+        pachinkoAudio.PlayPachinkoAudio(input);
     }
 }
