@@ -9,6 +9,7 @@ public class PachinkoData : MonoBehaviour
     public bool isAbleToShoot = true;
     public int goldPegsLeft = 25;
     public TextMeshProUGUI ballsText;
+    public TextMeshProUGUI goldPegText;
     public Animator failAnim;
     public Animator winAnim;
     public Audio pachinkoAudio;
@@ -20,6 +21,7 @@ public class PachinkoData : MonoBehaviour
     public void CheckPegState(bool goldPeg){
         if (goldPeg == true){
             goldPegsLeft -= 1;
+            SetGoldPegCount();
             if (goldPegsLeft == 0){
                 Win();
             }
@@ -32,6 +34,11 @@ public class PachinkoData : MonoBehaviour
     public void Lose(){
         isAbleToShoot = false;
         failAnim.SetTrigger("HasFailed");
+    }
+    public void SetGoldPegCount(){
+        goldPegText.text = "";
+        goldPegText.text += goldPegsLeft;
+        goldPegText.text += "/25 Gold Pegs";
     }
     public void SetBallCount()
     {
