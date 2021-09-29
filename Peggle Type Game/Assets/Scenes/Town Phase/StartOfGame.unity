@@ -234,6 +234,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &601025476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1929505097053442150, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+  m_PrefabInstance: {fileID: 1929505097249504801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &629868620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1929505097395833849, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+  m_PrefabInstance: {fileID: 1929505097249504801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &629868622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629868620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2f4b27196f84954b44753aaac214bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1212061014
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,30 +368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec75408227df985489f2f2956ea6a1a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    names:
-    - Narrator
-    - Narrator
-    - Narrator
-    - Narrator
-    - Narrator
-    - Narrator
-    - Narrator
-    - Narrator
-    sentences:
-    - This is where our story begins.
-    - Meet Carmen, a desperate, overworked musician who lives solely off the money
-      she gets from her live gigs.
-    - "You obviously can\u2019t see her because she\u2019s driving, but trust me,
-      she is there.\r"
-    - "She thinks today is another day where she will frantically drive to a gig\u2026.\r"
-    - "But what she doesn\u2019t know is that it won\u2019t play out like that.\r"
-    - "You see, just straight ahead of her is a rock. That rock will cause her car
-      to flip.\r"
-    - "And as for the rest?\r"
-    - "Well, let\u2019s just say this will be the craziest day of Carmen\u2019s life.\r"
-    speakerName: Narrator
-    buttonsNeeded: 0100000001000000010000000100000001000000010000000100000001000000
   dialogueObject: {fileID: 11400000, guid: 0e19885456140a543b58b687370884a5, type: 2}
 --- !u!4 &1419537531
 Transform:
@@ -6642,7 +6640,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1929505097395833848, guid: b0855f2142904834287a5e196afdfb73, type: 3}
   m_PrefabInstance: {fileID: 1929505097249504801}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 629868620}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b987887f62a66df439672a1b2fdc2ace, type: 3}
@@ -6704,6 +6702,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1929505096855051248, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929505096855051248, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929505096855051248, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929505096855051248, guid: b0855f2142904834287a5e196afdfb73, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -489.99994
       objectReference: {fileID: 0}
@@ -6715,6 +6725,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 437.39996
       objectReference: {fileID: 0}
+    - target: {fileID: 1929505097395833848, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: dialogueBox
+      value: 
+      objectReference: {fileID: 601025476}
     - target: {fileID: 1929505097395833849, guid: b0855f2142904834287a5e196afdfb73, type: 3}
       propertyPath: m_Name
       value: Dialogue Manager
@@ -6765,7 +6779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1929505097457719780, guid: b0855f2142904834287a5e196afdfb73, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1929505097457719780, guid: b0855f2142904834287a5e196afdfb73, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -6814,6 +6828,34 @@ PrefabInstance:
     - target: {fileID: 1929505097457719781, guid: b0855f2142904834287a5e196afdfb73, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584458939965551816, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584458939965551816, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584458939965551816, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584458939965551816, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584458939965551816, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584458939965551816, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7397018650634127734, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+      propertyPath: m_Name
+      value: Continue Text
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0855f2142904834287a5e196afdfb73, type: 3}

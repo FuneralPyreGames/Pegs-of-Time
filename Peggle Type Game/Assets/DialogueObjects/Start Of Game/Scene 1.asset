@@ -21,6 +21,7 @@ MonoBehaviour:
   - Narrator
   - Narrator
   - Narrator
+  - Narrator
   sentences:
   - This is where our story begins.
   - Meet Carmen, a desperate, overworked musician who lives solely off the money
@@ -33,5 +34,29 @@ MonoBehaviour:
     to flip.\r"
   - "And as for the rest?\r"
   - "Well, let\u2019s just say this will be the craziest day of Carmen\u2019s life.\r"
+  - If it doesn't become the only day.
   speakerName: Narrator
-  buttonsNeeded: 0100000001000000010000000100000001000000010000000100000001000000
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000
+  voiceClip:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  audioOn: 0
+  button1TextIf1ButtonNeeded: 
+  button1TextIf2ButtonsNeeded: 
+  button2TextIf2ButtonsNeeded: 
+  button1TextIf3ButtonsNeeded: 
+  button2TextIf3ButtonsNeeded: 
+  button3TextIf3ButtonsNeeded: 
+  nextDialogueObject: {fileID: 0}
+  decision1Switch: {fileID: 0}
+  decision2switch: {fileID: 0}
+  decision3switch: {fileID: 0}
+  sceneToSwitchTo: 
+  actionOnEnd: 0
