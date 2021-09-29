@@ -18,6 +18,8 @@ public class DialogueManager : MonoBehaviour
     public GameObject secondButton;
     public GameObject thirdButton;
     public GameObject Continue;
+    public GameObject Car;
+    public GameObject Blackout;
     private string button1TextIf1ButtonNeeded;
     private string button1TextIf2ButtonsNeeded;
     private string button2TextIf2ButtonsNeeded;
@@ -28,6 +30,7 @@ public class DialogueManager : MonoBehaviour
     public DialogueObject nextDialogueObject;
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         sentences = new Queue<string>();
         names = new Queue<string>();
         buttons = new Queue<int>();
@@ -122,8 +125,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         if (actionOnEnd == 0){ //Completely end dialogue
-            LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.25f);
-            SetDefaultDialogue();
+            LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
         }
         if (actionOnEnd == 1){ //Load next dialogue object
             StartDialogue(nextDialogueObject); 
@@ -132,11 +134,20 @@ public class DialogueManager : MonoBehaviour
 
         }
         if (actionOnEnd == 3){ //Custom ending for scene 1
-
+            Car = GameObject.Find("Car");
+            Blackout = GameObject.Find("Blackout/Blackout Panel");
+            LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
+            StartCoroutine(MoveCar());
         }
     }
     void SetDefaultDialogue(){
         dialogueText.text = "Default Dialogue";
         nameText.text = "Default Name";
+    }
+    IEnumerator MoveCar(){
+        yield return new WaitForSeconds(.5f);
+        LeanTween.moveX(Car, 6.05f, 1.5f);
+        yield return new WaitForSeconds(.75f);
+        LeanTween.scale(Blackout, new Vector3(1.2f,1.2f,1.2f), 0.375f);
     }
 }

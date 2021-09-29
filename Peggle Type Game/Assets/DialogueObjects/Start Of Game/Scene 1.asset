@@ -59,4 +59,4 @@ MonoBehaviour:
   decision2switch: {fileID: 0}
   decision3switch: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 0
+  actionOnEnd: 3

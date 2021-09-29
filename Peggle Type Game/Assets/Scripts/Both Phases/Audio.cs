@@ -16,6 +16,7 @@ public class Audio : MonoBehaviour
     void Start()
     {
         audioSource.outputAudioMixerGroup = Master;
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
