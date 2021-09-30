@@ -20,6 +20,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject Continue;
     public GameObject Car;
     public GameObject Blackout;
+    public StartOfGameHandler startOfGameHandler;
     private string button1TextIf1ButtonNeeded;
     private string button1TextIf2ButtonsNeeded;
     private string button2TextIf2ButtonsNeeded;
@@ -28,6 +29,9 @@ public class DialogueManager : MonoBehaviour
     private string button3TextIf3ButtonsNeeded;
     public int actionOnEnd;
     public DialogueObject nextDialogueObject;
+    public DialogueObject buttonOneDialogueObject;
+    public DialogueObject buttonTwoDialogueObject;
+    public DialogueObject buttonThreeDialogueObject;
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -45,6 +49,9 @@ public class DialogueManager : MonoBehaviour
         button3TextIf3ButtonsNeeded = dialogue.button3TextIf3ButtonsNeeded;
         actionOnEnd = dialogue.actionOnEnd;
         nextDialogueObject = dialogue.nextDialogueObject;
+        buttonOneDialogueObject = dialogue.buttonOneDialogueObject;
+        buttonTwoDialogueObject = dialogue.buttonTwoDialogueObject;
+        buttonThreeDialogueObject = dialogue.buttonThreeDialogueObject;
         sentences.Clear();
         names.Clear();
         LeanTween.scale(gameObject, new Vector3 (1,1,1), 0.25f);
@@ -136,18 +143,29 @@ public class DialogueManager : MonoBehaviour
         if (actionOnEnd == 3){ //Custom ending for scene 1
             Car = GameObject.Find("Car");
             Blackout = GameObject.Find("Blackout/Blackout Panel");
+            startOfGameHandler = GameObject.Find("Start Of Game Handler").GetComponent<StartOfGameHandler>();
             LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
-            StartCoroutine(MoveCar());
+            StartCoroutine(MoveToScene2());
         }
     }
     void SetDefaultDialogue(){
         dialogueText.text = "Default Dialogue";
         nameText.text = "Default Name";
     }
-    IEnumerator MoveCar(){
+    public void ButtonOneHandler(){
+        StartDialogue(buttonOneDialogueObject);
+    }   
+    public void ButtonTwoHandler(){
+        StartDialogue(buttonTwoDialogueObject);
+    }
+    public void ButtonThreeHandler(){
+        StartDialogue(buttonThreeDialogueObject);
+    }
+    IEnumerator MoveToScene2(){
         yield return new WaitForSeconds(.5f);
         LeanTween.moveX(Car, 6.05f, 1.5f);
         yield return new WaitForSeconds(.75f);
         LeanTween.scale(Blackout, new Vector3(1.2f,1.2f,1.2f), 0.375f);
+        startOfGameHandler.StartMoveToScene2Coroutine();
     }
 }

@@ -19,9 +19,9 @@ public class DialogueObject : ScriptableObject
     public string button2TextIf3ButtonsNeeded;
     public string button3TextIf3ButtonsNeeded;
     public DialogueObject nextDialogueObject;
-    public DialogueObject decision1Switch;
-    public DialogueObject decision2switch;
-    public DialogueObject decision3switch;
+    public DialogueObject buttonOneDialogueObject;
+    public DialogueObject buttonTwoDialogueObject;
+    public DialogueObject buttonThreeDialogueObject;
     public string sceneToSwitchTo;
     public int actionOnEnd;
     // 0 = End Dialogue Normally
