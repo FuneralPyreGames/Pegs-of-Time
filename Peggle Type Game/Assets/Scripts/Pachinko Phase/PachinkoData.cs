@@ -14,9 +14,10 @@ public class PachinkoData : MonoBehaviour
     public Animator winAnim;
     public Audio pachinkoAudio;
     public PegAssigner pegAssigner;
-    void Start()
+    void Awake()
     {
         pegAssigner.AssignGoldPegs();
+        StartCoroutine(AwakeTime());
     }
     public void CheckPegState(bool goldPeg){
         if (goldPeg == true){
@@ -60,5 +61,9 @@ public class PachinkoData : MonoBehaviour
     public void PlayAudio(int input)
     {
         pachinkoAudio.PlayPachinkoAudio(input);
+    }
+    IEnumerator AwakeTime(){
+        yield return new WaitForSeconds(.25f);
+        pachinkoAudio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();
     }
 }

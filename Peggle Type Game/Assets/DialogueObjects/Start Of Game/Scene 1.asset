@@ -30,8 +30,7 @@ MonoBehaviour:
     is there.\r"
   - "She thinks today is another day where she will frantically drive to a gig\u2026.\r"
   - "But what she doesn\u2019t know is that it won\u2019t play out like that.\r"
-  - "You see, just straight ahead of her is a rock. That rock will cause her car
-    to flip.\r"
+  - You see, just straight ahead of her is a wall. That wall will wreck her car.
   - "And as for the rest?\r"
   - "Well, let\u2019s just say this will be the craziest day of Carmen\u2019s life.\r"
   - If it doesn't become the only day.
@@ -55,8 +54,8 @@ MonoBehaviour:
   button2TextIf3ButtonsNeeded: 
   button3TextIf3ButtonsNeeded: 
   nextDialogueObject: {fileID: 0}
-  decision1Switch: {fileID: 0}
-  decision2switch: {fileID: 0}
-  decision3switch: {fileID: 0}
+  buttonOneDialogueObject: {fileID: 0}
+  buttonTwoDialogueObject: {fileID: 0}
+  buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
   actionOnEnd: 3

@@ -11,6 +11,7 @@ public class BallHandler : MonoBehaviour
     void Awake()
     {
         pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();
+        StartCoroutine(Failsafe());
     }
 
     // Update is called once per frame
@@ -49,6 +50,15 @@ public class BallHandler : MonoBehaviour
             pachinkoData.SetBallCount();
             Destroy(gameObject);
         }
+    }
+    IEnumerator Failsafe(){
+        yield return new WaitForSeconds(15f);
+        StartCoroutine(FailsafeInAction());
+    }
+    IEnumerator FailsafeInAction(){
+        yield return new WaitForSeconds(0.5f);
+        ballRb.gravityScale += .1f;
+        StartCoroutine(FailsafeInAction());
     }
 
 }

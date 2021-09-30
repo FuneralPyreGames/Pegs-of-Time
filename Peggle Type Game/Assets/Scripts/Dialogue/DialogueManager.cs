@@ -20,6 +20,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject Continue;
     public GameObject Car;
     public GameObject Blackout;
+    public SceneChangeManager sceneChangeManager;
     public StartOfGameHandler startOfGameHandler;
     private string button1TextIf1ButtonNeeded;
     private string button1TextIf2ButtonsNeeded;
@@ -27,11 +28,13 @@ public class DialogueManager : MonoBehaviour
     private string button1TextIf3ButtonsNeeded;
     private string button2TextIf3ButtonsNeeded;
     private string button3TextIf3ButtonsNeeded;
+    public string sceneToSwitchTo;
     public int actionOnEnd;
     public DialogueObject nextDialogueObject;
     public DialogueObject buttonOneDialogueObject;
     public DialogueObject buttonTwoDialogueObject;
     public DialogueObject buttonThreeDialogueObject;
+    public DialogueObject otherReference;
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -41,19 +44,22 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartDialogue(DialogueObject dialogue)
     {
+        otherReference = dialogue;
         button1TextIf1ButtonNeeded = dialogue.button1TextIf1ButtonNeeded;
         button1TextIf2ButtonsNeeded = dialogue.button1TextIf2ButtonsNeeded;
         button2TextIf2ButtonsNeeded = dialogue.button2TextIf2ButtonsNeeded;
         button1TextIf3ButtonsNeeded = dialogue.button1TextIf3ButtonsNeeded;
         button2TextIf3ButtonsNeeded = dialogue.button2TextIf3ButtonsNeeded;
         button3TextIf3ButtonsNeeded = dialogue.button3TextIf3ButtonsNeeded;
-        actionOnEnd = dialogue.actionOnEnd;
         nextDialogueObject = dialogue.nextDialogueObject;
         buttonOneDialogueObject = dialogue.buttonOneDialogueObject;
         buttonTwoDialogueObject = dialogue.buttonTwoDialogueObject;
         buttonThreeDialogueObject = dialogue.buttonThreeDialogueObject;
+        sceneToSwitchTo = dialogue.sceneToSwitchTo;
+        sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
         sentences.Clear();
         names.Clear();
+        buttons.Clear();
         LeanTween.scale(gameObject, new Vector3 (1,1,1), 0.25f);
         foreach (string sentence in dialogue.sentences)
         {
@@ -68,6 +74,7 @@ public class DialogueManager : MonoBehaviour
             buttons.Enqueue(button);
         }
         DisplayNextSentence();
+        StartCoroutine(WorkaroundAttempt(dialogue));
     }
     public void SetButtons(int numOfButtons)
     {
@@ -131,14 +138,18 @@ public class DialogueManager : MonoBehaviour
     }
     void EndDialogue()
     {
+        Debug.Log(actionOnEnd);
+        actionOnEnd = otherReference.actionOnEnd;
         if (actionOnEnd == 0){ //Completely end dialogue
             LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
         }
         if (actionOnEnd == 1){ //Load next dialogue object
+            CancelDialogue();
             StartDialogue(nextDialogueObject); 
         }
         if (actionOnEnd == 2){ //Load pachinko level
-
+            LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.00000001f);
+            sceneChangeManager.LoadPachinkoLevel(sceneToSwitchTo);
         }
         if (actionOnEnd == 3){ //Custom ending for scene 1
             Car = GameObject.Find("Car");
@@ -153,13 +164,21 @@ public class DialogueManager : MonoBehaviour
         nameText.text = "Default Name";
     }
     public void ButtonOneHandler(){
+        CancelDialogue();
         StartDialogue(buttonOneDialogueObject);
     }   
     public void ButtonTwoHandler(){
+        CancelDialogue();
         StartDialogue(buttonTwoDialogueObject);
     }
     public void ButtonThreeHandler(){
+        CancelDialogue();
         StartDialogue(buttonThreeDialogueObject);
+    }
+    public void CancelDialogue(){
+        sentences.Clear();
+        names.Clear();
+        buttons.Clear();
     }
     IEnumerator MoveToScene2(){
         yield return new WaitForSeconds(.5f);
@@ -167,5 +186,9 @@ public class DialogueManager : MonoBehaviour
         yield return new WaitForSeconds(.75f);
         LeanTween.scale(Blackout, new Vector3(1.2f,1.2f,1.2f), 0.375f);
         startOfGameHandler.StartMoveToScene2Coroutine();
+    }
+    IEnumerator WorkaroundAttempt(DialogueObject dialogue){
+        yield return new WaitForSeconds(1);
+        actionOnEnd = dialogue.actionOnEnd;
     }
 }

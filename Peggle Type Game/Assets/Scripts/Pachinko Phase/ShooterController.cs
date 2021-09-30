@@ -11,9 +11,9 @@ public class ShooterController : MonoBehaviour
     public float ballForce = 100f;
     private Vector3 movement;
     public PachinkoData pachinkoData;
-    private void Start()
+    private void Awake()
     {
-        //Time.timeScale = 1f;
+        pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();
     }
     void Update()
     {
