@@ -14,6 +14,7 @@ public class PachinkoData : MonoBehaviour
     public Animator winAnim;
     public Audio pachinkoAudio;
     public PegAssigner pegAssigner;
+    public SceneChangeManager sceneChangeManager;
     void Awake()
     {
         pegAssigner.AssignGoldPegs();
@@ -31,6 +32,8 @@ public class PachinkoData : MonoBehaviour
     public void Win(){
         isAbleToShoot = false;
         winAnim.SetTrigger("GameWon");
+        sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
+        sceneChangeManager.LoadStartOfGameReturn();
     }
     public void Lose(){
         isAbleToShoot = false;

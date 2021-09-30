@@ -9,9 +9,11 @@ public class StartOfGameHandler : MonoBehaviour
     public DialogueObject dialogueObject4;
     public GameObject mainCamera;
     public GameObject Blackout;
-    void Start()
+    public bool comingFromPachinko1 = false;
+    public PersistentData persistentData;
+    void Awake()
     {
-        StartCoroutine(Wait2Secs());
+        StartCoroutine(LoadBlackoutHandler());
     }
     public void TriggerDialogue1()
     {
@@ -41,5 +43,26 @@ public class StartOfGameHandler : MonoBehaviour
         yield return new WaitForSeconds(3f);
         LeanTween.scale(Blackout, new Vector3(0,0,0), .4f);
         TriggerDialogue2();
+    }
+    IEnumerator FailsafeWait()
+    {
+        yield return new WaitForSeconds(1f);
+        persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+        comingFromPachinko1 = persistentData.comingFromPachinko1;
+        if (comingFromPachinko1 == false)
+        {
+            StartCoroutine(Wait2Secs());
+            persistentData.comingFromPachinko1 = true;
+        }
+        else if (comingFromPachinko1 == true)
+        {
+            TriggerDialogue3();
+        }
+    }
+    IEnumerator LoadBlackoutHandler()
+    {
+        yield return new WaitForSeconds(1f);
+        LeanTween.scale(Blackout, new Vector3(0, 0, 0), 1.4f);
+        StartCoroutine(FailsafeWait());
     }
 }
