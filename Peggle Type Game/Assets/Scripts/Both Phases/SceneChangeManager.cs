@@ -11,6 +11,7 @@ public class SceneChangeManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
     }
+    #region Loaders
     public void StartGame()
     {
         SceneManager.LoadScene("StartOfGame");
@@ -27,4 +28,5 @@ public class SceneChangeManager : MonoBehaviour
         SceneManager.LoadScene("StartOfGame");
         persistentData.PickLoadSpot("Pachinko Level 1");
     }
+    #endregion
 }

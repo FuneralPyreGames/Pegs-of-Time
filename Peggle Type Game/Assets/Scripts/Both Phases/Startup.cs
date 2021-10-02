@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Startup : MonoBehaviour
 {
+    #region StartupObjects
     public GameObject audioPrefab;
     public GameObject dialogueManagerPrefab;
     public GameObject persistentDataPrefab;
     public GameObject sceneChangeManagerPrefab;
+    #endregion
     void Start()
     {        
         if (GameObject.Find("PersistentData(Clone)") == null){

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShooterController : MonoBehaviour
 {
+    #region Variables
     public GameObject Guide;
     public GameObject ballPrefab;
     public Transform firePoint;
@@ -11,6 +12,7 @@ public class ShooterController : MonoBehaviour
     public float ballForce = 100f;
     private Vector3 movement;
     public PachinkoData pachinkoData;
+    #endregion
     private void Awake()
     {
         pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();

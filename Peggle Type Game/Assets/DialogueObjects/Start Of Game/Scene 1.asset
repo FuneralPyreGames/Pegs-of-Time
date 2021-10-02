@@ -36,16 +36,7 @@ MonoBehaviour:
   - If it doesn't become the only day.
   speakerName: Narrator
   buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000
-  voiceClip:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 
   button1TextIf2ButtonsNeeded: 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class StartOfGameHandler : MonoBehaviour
 {
+    #region Variables
     public DialogueObject dialogueObject;
     public DialogueObject dialogueObject2;
     public DialogueObject dialogueObject3;
@@ -11,10 +12,12 @@ public class StartOfGameHandler : MonoBehaviour
     public GameObject Blackout;
     public bool comingFromPachinko1 = false;
     public PersistentData persistentData;
+    #endregion
     void Awake()
     {
         StartCoroutine(LoadBlackoutHandler());
     }
+    #region DialogueTriggers
     public void TriggerDialogue1()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogueObject);
@@ -28,9 +31,16 @@ public class StartOfGameHandler : MonoBehaviour
     public void TriggerDialogue4(){
         FindObjectOfType<DialogueManager>().StartDialogue(dialogueObject4);
     }
+    #endregion
+    #region CoroutineTriggers
     public void StartMoveToScene2Coroutine(){
         StartCoroutine(MoveToScene2());
     }
+    public void StartMoveToScene4Coroutine(){
+        StartCoroutine(MoveToScene4());
+    }
+    #endregion
+    #region Coroutines
     IEnumerator Wait2Secs()
     {
         yield return new WaitForSeconds(1);
@@ -43,6 +53,14 @@ public class StartOfGameHandler : MonoBehaviour
         yield return new WaitForSeconds(3f);
         LeanTween.scale(Blackout, new Vector3(0,0,0), .4f);
         TriggerDialogue2();
+    }
+    IEnumerator MoveToScene4()
+    {
+        yield return new WaitForSeconds(.375f);
+        LeanTween.move(mainCamera, new Vector3 (137, 3, -10), .1f);
+        yield return new WaitForSeconds(3f);
+        LeanTween.scale(Blackout, new Vector3(0,0,0), .4f);
+        TriggerDialogue4();
     }
     IEnumerator FailsafeWait()
     {
@@ -65,4 +83,5 @@ public class StartOfGameHandler : MonoBehaviour
         LeanTween.scale(Blackout, new Vector3(0, 0, 0), 1.4f);
         StartCoroutine(FailsafeWait());
     }
+    #endregion
 }

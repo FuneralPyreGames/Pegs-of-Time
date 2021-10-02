@@ -24,7 +24,4 @@ public class DialogueObject : ScriptableObject
     public DialogueObject buttonThreeDialogueObject;
     public string sceneToSwitchTo;
     public int actionOnEnd;
-    // 0 = End Dialogue Normally
-    // 1 = Load Next Dialogue
-    // 2 = Load Pachinko Scene
 }

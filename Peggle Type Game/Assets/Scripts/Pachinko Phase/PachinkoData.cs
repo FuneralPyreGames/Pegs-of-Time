@@ -5,6 +5,7 @@ using TMPro;
 
 public class PachinkoData : MonoBehaviour
 {
+    #region Variables
     public int balls = 10;
     public bool isAbleToShoot = true;
     public int goldPegsLeft = 25;
@@ -15,6 +16,7 @@ public class PachinkoData : MonoBehaviour
     public Audio pachinkoAudio;
     public PegAssigner pegAssigner;
     public SceneChangeManager sceneChangeManager;
+    #endregion
     void Awake()
     {
         pegAssigner.AssignGoldPegs();

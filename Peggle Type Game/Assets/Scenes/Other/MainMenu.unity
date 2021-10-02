@@ -768,6 +768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioPrefab: {fileID: 6769092915061354702, guid: abf8eebcb605a4bfeb1a5708fe18bedf, type: 3}
   dialogueManagerPrefab: {fileID: 1929505097395833849, guid: b0855f2142904834287a5e196afdfb73, type: 3}
+  persistentDataPrefab: {fileID: 6606460451803201409, guid: edf49d35e4dcc4caa8949b3fa4a6af80, type: 3}
+  sceneChangeManagerPrefab: {fileID: 7940231246476253465, guid: 7cf76115c2dea453095609f322bb574f, type: 3}
 --- !u!4 &276721398
 Transform:
   m_ObjectHideFlags: 0
@@ -864,7 +866,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 354945877}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 960273817}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &354945877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3251,6 +3265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsWindow: {fileID: 2062175337}
   creditsWindow: {fileID: 1473462589}
+  sceneChangeManager: {fileID: 0}
 --- !u!1 &974261180
 GameObject:
   m_ObjectHideFlags: 0

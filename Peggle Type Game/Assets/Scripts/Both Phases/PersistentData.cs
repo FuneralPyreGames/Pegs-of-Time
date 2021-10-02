@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PersistentData : MonoBehaviour
 {
+    #region Variables
     public string PreviousLevel;
     public Vector3 positionToLoadIn;
     public Vector3 cameraPos;
     public GameObject Player;
     public GameObject mainCamera;
     public bool comingFromPachinko1 = false;
+    #endregion
     void Awake()
     {
        DontDestroyOnLoad(gameObject); 

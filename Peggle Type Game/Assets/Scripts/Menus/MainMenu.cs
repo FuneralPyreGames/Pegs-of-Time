@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject optionsWindow;
     public GameObject creditsWindow;
+    public SceneChangeManager sceneChangeManager;
     public void OpenOptions()
     {
         optionsWindow.SetActive(true);
@@ -22,5 +23,9 @@ public class MainMenu : MonoBehaviour
         #else
             Application.Quit();
         #endif
+    }
+    public void StartGame(){
+        sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
+        sceneChangeManager.StartGame();
     }
 }

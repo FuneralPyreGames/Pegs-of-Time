@@ -13,7 +13,6 @@ public class BallHandler : MonoBehaviour
         pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();
         StartCoroutine(Failsafe());
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -36,7 +35,6 @@ public class BallHandler : MonoBehaviour
             pachinkoData.PlayAudio(2);
         }
     }
-
     void OnTriggerEnter2D(Collider2D collision){
         if (collision.name == "BallCollider"){
             pachinkoData.PlayAudio(4);
@@ -60,5 +58,4 @@ public class BallHandler : MonoBehaviour
         ballRb.gravityScale += .1f;
         StartCoroutine(FailsafeInAction());
     }
-
 }

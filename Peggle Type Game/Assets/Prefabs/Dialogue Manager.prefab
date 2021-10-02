@@ -433,9 +433,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -490, y: -292.5}
-  m_SizeDelta: {x: -1140, y: -765.00006}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 470, y: 247.5}
+  m_SizeDelta: {x: 780, y: 314.99994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1929505096855051250
 CanvasRenderer:
@@ -610,10 +610,10 @@ RectTransform:
   m_Father: {fileID: 1929505097053442154}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -487.23, y: -186}
-  m_SizeDelta: {x: 754.81, y: 82.92}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 472.77002, y: 354}
+  m_SizeDelta: {x: 754.81, y: 82.91998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1929505097302397552
 CanvasRenderer:
@@ -744,10 +744,10 @@ RectTransform:
   m_Father: {fileID: 1929505097053442154}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -487.23, y: -338.78}
-  m_SizeDelta: {x: 754.81, y: 206.49}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 472.77002, y: 201.22}
+  m_SizeDelta: {x: 754.81, y: 206.48999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1929505097338180204
 CanvasRenderer:
@@ -885,10 +885,10 @@ RectTransform:
   m_Father: {fileID: 1929505097053442154}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 437.4, y: -292.5}
-  m_SizeDelta: {x: -925.2, y: -765.00006}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -522.6, y: 247.5}
+  m_SizeDelta: {x: 994.8, y: 314.99994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1929505097338621385
 CanvasRenderer:
@@ -1144,11 +1144,15 @@ MonoBehaviour:
   Continue: {fileID: 5590683480149698186}
   Car: {fileID: 0}
   Blackout: {fileID: 0}
+  sceneChangeManager: {fileID: 0}
+  startOfGameHandler: {fileID: 0}
+  sceneToSwitchTo: 
   actionOnEnd: 0
   nextDialogueObject: {fileID: 0}
   buttonOneDialogueObject: {fileID: 0}
   buttonTwoDialogueObject: {fileID: 0}
   buttonThreeDialogueObject: {fileID: 0}
+  otherReference: {fileID: 0}
 --- !u!114 &5906412848698713167
 MonoBehaviour:
   m_ObjectHideFlags: 0

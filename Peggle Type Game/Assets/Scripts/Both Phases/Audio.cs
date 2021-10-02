@@ -18,12 +18,7 @@ public class Audio : MonoBehaviour
         audioSource.outputAudioMixerGroup = Master;
         DontDestroyOnLoad(gameObject);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    #region SoundEffects
     public void PlayPachinkoAudio(int selection)
     {
         switch (selection)
@@ -45,4 +40,5 @@ public class Audio : MonoBehaviour
                 break;
         }
     }
+    #endregion
 }

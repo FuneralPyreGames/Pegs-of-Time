@@ -10,47 +10,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
-  m_Name: Scene 3
+  m_Name: Scene 4
   m_EditorClassIdentifier: 
   names:
   - Carmen
-  - Beth
   - Carmen
   - Carmen
-  - Beth
-  - Beth
   - Carmen
-  - Beth
-  - Beth
   - Carmen
-  - Beth
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
   - Carmen
   sentences:
-  - 'Woah, what was that!
+  - Wait, have I been here before?
+  - 'Hold up, is that Beth over there?
 
 '
-  - 'You mean our bowling arena?
+  - "This place looks exactly like it was during the\u2026."
+  - "\u2026.5 minutes I was awake.\n"
+  - Crap.
+  - "I think I\u2019m in a time loop.\n"
+  - 'So, is this related to the peg game I saw?
 
 '
-  - 'No, I mean all those pegs that I just saw?
-
-'
-  - 'Did...beating that help you accomplish your goal?
-
-'
-  - 'Beating what?
-
-'
-  - "I hope you aren\u2019t beating up residents, we\u2019ve had issues with visitors
-    like that in the past.\r\n"
-  - "No\u2026.just\u2026.forget about it.\r\n"
-  - Okay?
-  - 'So, what are you thinking about now?
-
-'
-  - "Actually, can we sit down for a moment? I\u2019m feeling kind of faint.\r\n"
-  - That definitely sounds like a good idea.
-  - "I just don\u2019t want to\u2026"
+  - I ended up helping Beth when I finished it.
+  - "So, it\u2019s possible that maybe if I help enough people using the game\u2026"
+  - "I\u2019ll get to go free!\n"
+  - Just gotta make sure my memory stays intact and speed things up.
+  - I can do this.
   speakerName: 
   buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   voiceClip: []
@@ -66,4 +57,4 @@ MonoBehaviour:
   buttonTwoDialogueObject: {fileID: 0}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 4
+  actionOnEnd: 0
