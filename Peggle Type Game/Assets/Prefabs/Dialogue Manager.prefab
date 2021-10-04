@@ -526,7 +526,7 @@ Canvas:
   m_GameObject: {fileID: 1929505097053442150}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -536,7 +536,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 732383895
-  m_SortingOrder: 4079
+  m_SortingOrder: 32767
   m_TargetDisplay: 0
 --- !u!114 &1929505097053442152
 MonoBehaviour:
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 1929505097395833851}
   - component: {fileID: 1929505097395833848}
   - component: {fileID: 5906412848698713167}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Dialogue Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}

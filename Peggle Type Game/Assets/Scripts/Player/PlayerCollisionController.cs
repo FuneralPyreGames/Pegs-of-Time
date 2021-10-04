@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class PlayerCollisionController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void DetermineTriggerAction(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        collision.GetComponent<NPCHandler>().StartDialogue();
     }
 }

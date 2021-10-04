@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] PlayerCollisionController playerCollisionController;
     [SerializeField] float speed = 5f;
     [SerializeField] Rigidbody2D rB;
     [SerializeField] Vector2 movement;
@@ -15,5 +16,9 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rB.MovePosition(rB.position + movement * speed * Time.fixedDeltaTime);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        playerCollisionController.DetermineTriggerAction(collision);
     }
 }

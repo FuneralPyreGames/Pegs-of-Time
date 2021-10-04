@@ -28,5 +28,9 @@ public class SceneChangeManager : MonoBehaviour
         SceneManager.LoadScene("StartOfGame");
         persistentData.PickLoadSpot("Pachinko Level 1");
     }
+    public void LoadTown()
+    {
+        SceneManager.LoadScene("Town");
+    }
     #endregion
 }

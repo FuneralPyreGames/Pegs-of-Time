@@ -5,7 +5,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    #region variables
+    #region Variables
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;    
     public TextMeshProUGUI firstButtonText;
@@ -20,6 +20,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject Continue;
     public GameObject Car;
     public GameObject Blackout;
+    public GameObject npcToMove;
     public SceneChangeManager sceneChangeManager;
     public StartOfGameHandler startOfGameHandler;
     private string button1TextIf1ButtonNeeded;
@@ -120,6 +121,16 @@ public class DialogueManager : MonoBehaviour
             LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
             StartCoroutine(MoveToScene4());
         }
+        if (actionOnEnd == 5)//Moves npc
+        {
+            LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
+            npcToMove.GetComponent<NPCHandler>().MovePosition();
+        }
+        if (actionOnEnd == 6)//Goes to town
+        {
+            sceneChangeManager.LoadTown();
+            LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
+        }
     }
     #endregion
     #region OtherFunctions
@@ -131,6 +142,10 @@ public class DialogueManager : MonoBehaviour
     void SetDefaultDialogue(){
         dialogueText.text = "Default Dialogue";
         nameText.text = "Default Name";
+    }
+    public void SetNPCToMove(GameObject NPC)
+    {
+        npcToMove = NPC;
     }
     #endregion
     #region ButtonHandlers

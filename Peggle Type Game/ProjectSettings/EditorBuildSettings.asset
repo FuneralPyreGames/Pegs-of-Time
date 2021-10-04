@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Town Phase/StartOfGame.unity
     guid: ebe434b65e9c645989f476751b419763
+  - enabled: 1
+    path: Assets/Scenes/Town Phase/Town.unity
+    guid: f19a61b86909e5b44825f6ae7dfed636
   m_configObjects: {}

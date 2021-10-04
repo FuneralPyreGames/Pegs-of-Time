@@ -10,40 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
-  m_Name: Scene 4
+  m_Name: Scene 1
   m_EditorClassIdentifier: 
   names:
+  - Beth
   - Carmen
+  - Beth
   - Carmen
+  - Beth
   - Carmen
-  - Carmen
-  - Carmen
-  - Carmen
-  - Carmen
-  - Carmen
-  - Carmen
-  - Carmen
-  - Carmen
-  - Carmen
+  - Beth
+  - Beth
+  - Beth
   sentences:
-  - Wait, have I been here before?
-  - 'Hold up, is that Beth over there?
-
-'
-  - "This place looks exactly like it was during the\u2026."
-  - "\u2026.5 minutes I was awake.\n"
-  - Crap.
-  - "I think I\u2019m in a time loop.\n"
-  - 'So, is this related to the peg game I saw?
-
-'
-  - I ended up helping Beth when I finished it.
-  - "So, it\u2019s possible that maybe if I help enough people using the game\u2026"
-  - "I\u2019ll get to go free!\n"
-  - Just gotta make sure my memory stays intact and speed things up.
-  - I can do this.
+  - "Hi! My name is Beth Moores. What\u2019s yours?\r"
+  - "Carmen. You are\u2026.\r"
+  - "Oh! I\u2019m the head of Silverford\u2019s Department of Tourism.\r"
+  - "Cool. See you around.\r"
+  - "Don\u2019t you want a tour of the town?\r"
+  - "Nah, you\u2019ve already shown me around."
+  - Huh?
+  - Well, okay then.
+  - Good day.
   speakerName: 
-  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000
   voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 
@@ -57,4 +47,4 @@ MonoBehaviour:
   buttonTwoDialogueObject: {fileID: 0}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 6
+  actionOnEnd: 5
