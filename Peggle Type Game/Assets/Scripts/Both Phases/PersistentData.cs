@@ -20,8 +20,11 @@ public class PersistentData : MonoBehaviour
     public void PickLoadSpot(string LastLevel)
     {
         switch (LastLevel){
-            case "Pachinko Level 1":
+            case "Start Of Town":
                 StartCoroutine(WaitToMoveCamera());
+                break;
+            case "Pachinko Level 2":
+                StartCoroutine(GiveLoadingTime());
                 break;
         }
     }
@@ -31,5 +34,11 @@ public class PersistentData : MonoBehaviour
         cameraPos = new Vector3(95, 3, -10f);
         mainCamera = GameObject.Find("Main Camera");
         LeanTween.move(mainCamera, cameraPos, .00000001f);
+    }
+    IEnumerator GiveLoadingTime()
+    {
+        yield return new WaitForSeconds(0.25f);
+        Player = GameObject.Find("Player");
+        Player.transform.position = new Vector3(60.17466f, 29.705f, 1);
     }
 }

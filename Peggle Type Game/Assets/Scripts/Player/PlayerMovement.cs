@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speed = 5f;
     [SerializeField] Rigidbody2D rB;
     [SerializeField] Vector2 movement;
+    public bool playerAbleToMove = true;
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -15,7 +16,10 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        rB.MovePosition(rB.position + movement * speed * Time.fixedDeltaTime);
+        if (playerAbleToMove == true)
+        {
+            rB.MovePosition(rB.position + movement * speed * Time.fixedDeltaTime);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

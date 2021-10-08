@@ -128,7 +128,7 @@ public class DialogueManager : MonoBehaviour
         }
         if (actionOnEnd == 6)//Goes to town
         {
-            sceneChangeManager.LoadTown();
+            sceneChangeManager.LoadTown("Start Of Town");
             LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
         }
     }

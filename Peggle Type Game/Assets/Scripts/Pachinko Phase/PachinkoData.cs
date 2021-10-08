@@ -16,6 +16,7 @@ public class PachinkoData : MonoBehaviour
     public Audio pachinkoAudio;
     public PegAssigner pegAssigner;
     public SceneChangeManager sceneChangeManager;
+    public int currentLevel;
     #endregion
     void Awake()
     {
@@ -35,7 +36,15 @@ public class PachinkoData : MonoBehaviour
         isAbleToShoot = false;
         winAnim.SetTrigger("GameWon");
         sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
-        sceneChangeManager.LoadStartOfGameReturn();
+        switch (currentLevel)
+        {
+            case 1:
+                sceneChangeManager.LoadStartOfGameReturn();
+                break;
+            case 2:
+                sceneChangeManager.LoadTown("Pachinko Level 2");
+                break;
+        }
     }
     public void Lose(){
         isAbleToShoot = false;

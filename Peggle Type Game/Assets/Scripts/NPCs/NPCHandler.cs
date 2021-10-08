@@ -5,6 +5,7 @@ using UnityEngine;
 public class NPCHandler : MonoBehaviour
 {
     public DialogueObject startingDialogueObject;
+    public DialogueObject ifCompleteDialogueObject;
     public GameObject movementPoint;
     public DialogueManager dialogueManager;
     public void StartDialogue()

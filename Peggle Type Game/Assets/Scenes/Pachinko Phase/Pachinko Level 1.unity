@@ -1769,6 +1769,10 @@ PrefabInstance:
       propertyPath: goldPegText
       value: 
       objectReference: {fileID: 688400862}
+    - target: {fileID: 8800813194675577026, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
+      propertyPath: currentLevel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8800813194675577027, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
       propertyPath: m_Name
       value: PachinkoData
