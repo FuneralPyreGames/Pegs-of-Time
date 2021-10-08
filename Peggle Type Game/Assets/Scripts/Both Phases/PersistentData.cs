@@ -11,6 +11,8 @@ public class PersistentData : MonoBehaviour
     public GameObject Player;
     public GameObject mainCamera;
     public bool comingFromPachinko1 = false;
+    public bool pachinkoLevel2Done = false;
+    public bool malloryHelped = false;
     #endregion
     void Awake()
     {
