@@ -14,10 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   names:
   - Mallory
+  - Mallory
+  - Mallory
+  - Carmen
+  - Mallory
+  - Mallory
   sentences:
-  - Well? Is he interested?
+  - "Wait! He\u2019s interested?"
+  - Oh my god thank you so much!
+  - 'I need to go propose right now!
+
+'
+  - 'Propose? For prom?
+
+'
+  - 'I said what I said.
+
+'
+  - Now shoo so I can be with him.
   speakerName: 
-  buttonsNeeded: 00000000
+  buttonsNeeded: 000000000000000000000000000000000000000000000000
   voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 
@@ -31,4 +47,4 @@ MonoBehaviour:
   buttonTwoDialogueObject: {fileID: 0}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 0
+  actionOnEnd: 7

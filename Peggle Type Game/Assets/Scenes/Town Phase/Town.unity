@@ -9292,22 +9292,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5811913270233644627, guid: 41890753fcfa24057a3f06c8779bac2c, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.8627451
-      objectReference: {fileID: 0}
-    - target: {fileID: 5811913270233644627, guid: 41890753fcfa24057a3f06c8779bac2c, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.8862745
-      objectReference: {fileID: 0}
-    - target: {fileID: 5811913270233644627, guid: 41890753fcfa24057a3f06c8779bac2c, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.84705883
-      objectReference: {fileID: 0}
-    - target: {fileID: 5811913270233644627, guid: 41890753fcfa24057a3f06c8779bac2c, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4292666072
-      objectReference: {fileID: 0}
     - target: {fileID: 5811913270620717896, guid: 41890753fcfa24057a3f06c8779bac2c, type: 3}
       propertyPath: m_fontColor.b
       value: 0.8627451
@@ -19387,7 +19371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingDialogueObject: {fileID: 11400000, guid: 6c749922991368c47b2cf9102421c2b9, type: 2}
   ifCompleteDialogueObject: {fileID: 11400000, guid: 887e958d6a4ac124395a3c0568cefa0f, type: 2}
-  onCompleteDialogueObject: {fileID: 11400000, guid: 10cae771f1610354f8455b59d0551ca1, type: 2}
+  onCompleteDialogueObject: {fileID: 11400000, guid: 8b33f502876994c01bfcc6396ac13b66, type: 2}
   movementPoint: {fileID: 1200565082}
   dialogueManager: {fileID: 0}
 --- !u!61 &1972879054
@@ -19551,6 +19535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c81438e86a81814da7a850bcfb15751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  persistentData: {fileID: 0}
 --- !u!1 &2131247021
 GameObject:
   m_ObjectHideFlags: 0

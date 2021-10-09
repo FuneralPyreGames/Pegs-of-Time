@@ -13,6 +13,7 @@ public class PersistentData : MonoBehaviour
     public bool comingFromPachinko1 = false;
     public bool pachinkoLevel2Done = false;
     public bool malloryHelped = false;
+    public bool mallorySave = false;
     #endregion
     void Awake()
     {

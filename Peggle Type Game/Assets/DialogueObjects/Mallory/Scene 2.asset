@@ -10,39 +10,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
-  m_Name: Scene 1.1
+  m_Name: Scene 2
   m_EditorClassIdentifier: 
   names:
   - Mallory
+  - Carmen
   - Mallory
   - Mallory
   - Mallory
-  - Mallory
-  - Mallory
+  - Carmen
   - Mallory
   - Mallory
   sentences:
-  - God, what if he says no!
-  - Or, even says.....
-  - Never!
-  - Oh, sorry about that!
-  - My name is Mallory.
-  - I'm just so stressed because I'm trying to ask my boyfriend to prom.
-  - But, I'm just so nervous about it.
-  - Actually, if you wouldn't mind, could you do me a favor?
+  - 'Well? What did he say?
+
+'
+  - "He\u2019s interested.\n"
+  - "Wait! He\u2019s interested?\n"
+  - 'Oh my god thank you so much!
+
+'
+  - 'I need to go propose right now!
+
+'
+  - 'Propose? For prom?
+
+'
+  - ' I said what I said.
+
+'
+  - Now shoo so I can be with him.
   speakerName: 
-  buttonsNeeded: 0000000000000000000000000000000000000000000000000000000002000000
+  buttonsNeeded: 0000000000000000000000000000000000000000000000000000000000000000
   voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 
-  button1TextIf2ButtonsNeeded: I do mind.
-  button2TextIf2ButtonsNeeded: I don't mind!
+  button1TextIf2ButtonsNeeded: 
+  button2TextIf2ButtonsNeeded: 
   button1TextIf3ButtonsNeeded: 
   button2TextIf3ButtonsNeeded: 
   button3TextIf3ButtonsNeeded: 
   nextDialogueObject: {fileID: 0}
-  buttonOneDialogueObject: {fileID: 11400000, guid: 4e9c262440b04a7429ece33e38adfd84, type: 2}
-  buttonTwoDialogueObject: {fileID: 11400000, guid: 5d09713dd02afc243a758a036fa5256c, type: 2}
+  buttonOneDialogueObject: {fileID: 0}
+  buttonTwoDialogueObject: {fileID: 0}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 0
+  actionOnEnd: 7

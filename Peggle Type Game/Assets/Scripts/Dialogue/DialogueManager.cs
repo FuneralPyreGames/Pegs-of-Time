@@ -23,6 +23,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject npcToMove;
     public SceneChangeManager sceneChangeManager;
     public StartOfGameHandler startOfGameHandler;
+    public PersistentData persistentData;
     private string button1TextIf1ButtonNeeded;
     private string button1TextIf2ButtonsNeeded;
     private string button2TextIf2ButtonsNeeded;
@@ -131,6 +132,12 @@ public class DialogueManager : MonoBehaviour
             sceneChangeManager.LoadTown("Start Of Town");
             LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
         }
+        if (actionOnEnd == 7){//Setting mallory as helped
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            persistentData.mallorySave = true;
+            persistentData.malloryHelped = true;
+            LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
+        }    
     }
     #endregion
     #region OtherFunctions
@@ -189,8 +196,8 @@ public class DialogueManager : MonoBehaviour
             case 3:
                 Continue.SetActive(false);
                 firstButton.SetActive(true);
-                firstButton.SetActive(true);
-                firstButton.SetActive(true);
+                secondButton.SetActive(true);
+                thirdButton.SetActive(true);
                 firstButtonText.text = button1TextIf3ButtonsNeeded;
                 secondButtonText.text = button2TextIf3ButtonsNeeded;
                 thirdButtonText.text = button3TextIf3ButtonsNeeded;
