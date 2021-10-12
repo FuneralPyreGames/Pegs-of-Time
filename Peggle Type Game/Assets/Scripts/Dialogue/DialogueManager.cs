@@ -138,6 +138,13 @@ public class DialogueManager : MonoBehaviour
             persistentData.malloryHelped = true;
             LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
         }    
+        if (actionOnEnd == 8)
+        {
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            persistentData.gregorySave = true;
+            persistentData.gregoryHelped = true;
+            LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
+        }
     }
     #endregion
     #region OtherFunctions

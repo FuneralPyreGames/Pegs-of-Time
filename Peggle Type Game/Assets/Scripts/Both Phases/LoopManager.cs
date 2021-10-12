@@ -9,14 +9,16 @@ public class LoopManager : MonoBehaviour
     public int minutes = 5;
     public TextMeshProUGUI minutesText;
     public TextMeshProUGUI secondsText;
+    public PersistentData persistentData;
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
-        StartLoop();
     }
     public void StartLoop()
     {
         StartCoroutine(LoopTimer());
+        persistentData = GameObject.Find("PersistentData(Clone").GetComponent<PersistentData>();
+        persistentData.loopOn = true;
     }
     public void LoopTimerUp()
     {
@@ -56,10 +58,6 @@ public class LoopManager : MonoBehaviour
         minutesText.text += minutes;
         secondsText.text = "";
         secondsText.text += seconds;
-    }
-    public void ImportSave()
-    {
-
     }
     IEnumerator LoopTimer()
     {
