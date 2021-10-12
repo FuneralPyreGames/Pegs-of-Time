@@ -267,6 +267,7 @@ MonoBehaviour:
   dialogueManagerPrefab: {fileID: 1929505097395833849, guid: b0855f2142904834287a5e196afdfb73, type: 3}
   persistentDataPrefab: {fileID: 6606460451803201409, guid: edf49d35e4dcc4caa8949b3fa4a6af80, type: 3}
   sceneChangeManagerPrefab: {fileID: 7940231246476253465, guid: 7cf76115c2dea453095609f322bb574f, type: 3}
+  loopManagerPrefab: {fileID: 6355026709795617243, guid: 41890753fcfa24057a3f06c8779bac2c, type: 3}
 --- !u!4 &816002890
 Transform:
   m_ObjectHideFlags: 0

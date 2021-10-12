@@ -13,15 +13,15 @@ public class TownManager : MonoBehaviour
     }
     private void CheckLoopState()
     {
-        loopManager = GameObject.Find("Loop Manager").GetComponent<LoopManager>();
+        loopManager = GameObject.Find("LoopManager(Clone)").GetComponent<LoopManager>();
         if (persistentData.loopOn == false){
             loopManager.StartLoop();
         }
     }
     IEnumerator WaitToStartLoop()
     {
-        yield return new WaitForSeconds(0.05f);
-        persistentData = GameObject.Find("PersistentData(Clone").GetComponent<PersistentData>();
+        yield return new WaitForSeconds(0.25f);
+        persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
         CheckLoopState();
     }
 }

@@ -17,7 +17,7 @@ public class LoopManager : MonoBehaviour
     public void StartLoop()
     {
         StartCoroutine(LoopTimer());
-        persistentData = GameObject.Find("PersistentData(Clone").GetComponent<PersistentData>();
+        persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
         persistentData.loopOn = true;
     }
     public void LoopTimerUp()

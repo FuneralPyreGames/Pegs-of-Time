@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
+  m_Name: Scene 1.1.3
+  m_EditorClassIdentifier: 
+  names:
+  - Gregory
+  sentences:
+  - Cool save
+  speakerName: 
+  buttonsNeeded: 00000000
+  voiceClip: []
+  audioOn: 0
+  button1TextIf1ButtonNeeded: 
+  button1TextIf2ButtonsNeeded: 
+  button2TextIf2ButtonsNeeded: 
+  button1TextIf3ButtonsNeeded: 
+  button2TextIf3ButtonsNeeded: 
+  button3TextIf3ButtonsNeeded: 
+  nextDialogueObject: {fileID: 0}
+  buttonOneDialogueObject: {fileID: 0}
+  buttonTwoDialogueObject: {fileID: 0}
+  buttonThreeDialogueObject: {fileID: 0}
+  sceneToSwitchTo: 
+  actionOnEnd: 8
