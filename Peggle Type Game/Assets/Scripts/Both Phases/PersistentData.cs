@@ -10,6 +10,7 @@ public class PersistentData : MonoBehaviour
     public Vector3 cameraPos;
     public GameObject Player;
     public GameObject mainCamera;
+    public GameObject cinemachineCamera;
     public bool loopOn = false;
     public bool comingFromPachinko1 = false;
     public bool pachinkoLevel2Done = false;
@@ -49,12 +50,20 @@ public class PersistentData : MonoBehaviour
     {
         yield return new WaitForSeconds(0.25f);
         Player = GameObject.Find("Player");
+        cinemachineCamera = GameObject.Find("CM vcam1");
+        cinemachineCamera.SetActive(false);
         Player.transform.position = new Vector3(60.17466f, 29.705f, 1);
+        yield return new WaitForSeconds(0.25f);
+        cinemachineCamera.SetActive(true);
     }
     IEnumerator GiveLoadingTimeL3()
     {
         yield return new WaitForSeconds(0.25f);
         Player = GameObject.Find("Player");
+        cinemachineCamera = GameObject.Find("CM vcam1");
+        cinemachineCamera.SetActive(false);
         Player.transform.position = new Vector3(-0.1145606f, -26.14114f, 1);
+        yield return new WaitForSeconds(0.25f);
+        cinemachineCamera.SetActive(true);
     }
 }

@@ -49,6 +49,7 @@ MonoBehaviour:
   minutesText: {fileID: 5811913270233644627}
   secondsText: {fileID: 5811913270620717896}
   persistentData: {fileID: 0}
+  loopDisplay: {fileID: 5811913271730570452}
 --- !u!1001 &73523645262500680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -204,6 +205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Loop Display
       objectReference: {fileID: 0}
+    - target: {fileID: 5885401031387879324, guid: 9a2746be0f2d2434680e95e13afffe3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5885401031387879327, guid: 9a2746be0f2d2434680e95e13afffe3b, type: 3}
       propertyPath: m_RenderMode
       value: 0
@@ -262,6 +267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2746be0f2d2434680e95e13afffe3b, type: 3}
+--- !u!1 &5811913271730570452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5885401031387879324, guid: 9a2746be0f2d2434680e95e13afffe3b, type: 3}
+  m_PrefabInstance: {fileID: 73523645262500680}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5811913271730570456 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5885401031387879312, guid: 9a2746be0f2d2434680e95e13afffe3b, type: 3}
