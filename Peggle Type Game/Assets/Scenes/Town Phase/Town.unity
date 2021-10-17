@@ -35067,11 +35067,11 @@ MonoBehaviour:
   m_ShapeLightFalloffSize: 0.5
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: 17.019379, y: -6.455923, z: 0}
+  - {x: 15.668726, y: -7.0061893, z: 0}
   - {x: 26.681114, y: -6.481497, z: 0}
   - {x: 26.557129, y: 6.9954967, z: 0}
   - {x: 24.030771, y: 7.1269436, z: 0}
-  - {x: 16.878063, y: 6.9719696, z: 0}
+  - {x: 16.177723, y: 7.522236, z: 0}
 --- !u!1 &1780013956
 GameObject:
   m_ObjectHideFlags: 0
