@@ -24,6 +24,29 @@ public class PlayerCollisionController : MonoBehaviour
                 }
             }
         }
+        else if (collision.name == "Gregory")
+        {
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            if (persistentData.pachinkoLevel3Done == false)
+            {
+                collision.GetComponent<NPCHandler>().StartDialogue();
+            }
+            else if (persistentData.pachinkoLevel3Done == true)
+            {
+                if (persistentData.gregorySave == false)
+                {
+                    collision.GetComponent<NPCHandler>().StartOnCompleteDialogue();
+                }
+                else if (persistentData.gregorySave == true)
+                {
+                    if (persistentData.gregoryHelped == false)
+                    {
+                        collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
+                    }
+
+                }
+            }
+        }
         else if (collision.name == "Beth"){
             collision.GetComponent<NPCHandler>().StartDialogue();
         }

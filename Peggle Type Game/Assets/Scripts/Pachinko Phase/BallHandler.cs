@@ -51,11 +51,5 @@ public class BallHandler : MonoBehaviour
     }
     IEnumerator Failsafe(){
         yield return new WaitForSeconds(15f);
-        StartCoroutine(FailsafeInAction());
-    }
-    IEnumerator FailsafeInAction(){
-        yield return new WaitForSeconds(0.5f);
-        ballRb.gravityScale += .1f;
-        StartCoroutine(FailsafeInAction());
     }
 }

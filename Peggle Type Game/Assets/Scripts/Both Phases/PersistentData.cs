@@ -10,10 +10,15 @@ public class PersistentData : MonoBehaviour
     public Vector3 cameraPos;
     public GameObject Player;
     public GameObject mainCamera;
+    public GameObject cinemachineCamera;
+    public bool loopOn = false;
     public bool comingFromPachinko1 = false;
     public bool pachinkoLevel2Done = false;
     public bool malloryHelped = false;
     public bool mallorySave = false;
+    public bool pachinkoLevel3Done = false;
+    public bool gregoryHelped = false;
+    public bool gregorySave = false;
     #endregion
     void Awake()
     {
@@ -29,6 +34,9 @@ public class PersistentData : MonoBehaviour
             case "Pachinko Level 2":
                 StartCoroutine(GiveLoadingTime());
                 break;
+            case "Pachinko Level 3":
+                StartCoroutine(GiveLoadingTimeL3());
+                break;
         }
     }
     IEnumerator WaitToMoveCamera()
@@ -42,6 +50,20 @@ public class PersistentData : MonoBehaviour
     {
         yield return new WaitForSeconds(0.25f);
         Player = GameObject.Find("Player");
+        cinemachineCamera = GameObject.Find("CM vcam1");
+        cinemachineCamera.SetActive(false);
         Player.transform.position = new Vector3(60.17466f, 29.705f, 1);
+        yield return new WaitForSeconds(0.25f);
+        cinemachineCamera.SetActive(true);
+    }
+    IEnumerator GiveLoadingTimeL3()
+    {
+        yield return new WaitForSeconds(0.25f);
+        Player = GameObject.Find("Player");
+        cinemachineCamera = GameObject.Find("CM vcam1");
+        cinemachineCamera.SetActive(false);
+        Player.transform.position = new Vector3(-0.1145606f, -26.14114f, 1);
+        yield return new WaitForSeconds(0.25f);
+        cinemachineCamera.SetActive(true);
     }
 }
