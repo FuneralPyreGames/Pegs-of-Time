@@ -314,7 +314,7 @@ MonoBehaviour:
   m_ApplyToSortingLayers: 00000000cbfd8ed36565d2a3974aa72b
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
-  m_LightOrder: 0
+  m_LightOrder: 1
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0.21
   m_ShadowVolumeIntensity: 0
@@ -20090,7 +20090,7 @@ MonoBehaviour:
   m_ApplyToSortingLayers: 00000000cbfd8ed36565d2a3974aa72b
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
-  m_LightOrder: 0
+  m_LightOrder: 1
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0.24
   m_ShadowVolumeIntensity: 0
@@ -20234,7 +20234,7 @@ MonoBehaviour:
   m_ApplyToSortingLayers: 00000000cbfd8ed36565d2a3974aa72b
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
-  m_LightOrder: 0
+  m_LightOrder: 1
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0.262
   m_ShadowVolumeIntensity: 0
