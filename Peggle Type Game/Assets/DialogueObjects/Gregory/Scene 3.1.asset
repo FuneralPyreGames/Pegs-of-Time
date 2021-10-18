@@ -10,35 +10,45 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
-  m_Name: Scene 2
+  m_Name: Scene 3.1
   m_EditorClassIdentifier: 
   names:
   - Carmen
   - Gregory
   - Gregory
+  - Gregory
+  - Carmen
   - Carmen
   - Carmen
   - Gregory
   sentences:
-  - "So, that\u2019s how you play catch!"
-  - Thank you so much!
-  - "I\u2019m sure my son will enjoy it!\r"
-  - "It\u2019s been great to help you."
-  - Have a wonderful day!
-  - You too, and thanks again!
+  - I think you know more than you think you do.
+  - "Wait what?\r"
+  - 'I know nothing about catch!
+
+'
+  - "What do you mean?\r"
+  - 'Trust me here.
+
+'
+  - 'You were born to be an A+ catch player.
+
+'
+  - "If you\u2019re just confident in yourself you can do this!\r"
+  - "Okay, but how can I be sure?\r"
   speakerName: 
-  buttonsNeeded: 000000000000000000000000000000000000000000000000
+  buttonsNeeded: 0000000000000000000000000000000000000000000000000000000002000000
   voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 
-  button1TextIf2ButtonsNeeded: 
-  button2TextIf2ButtonsNeeded: 
+  button1TextIf2ButtonsNeeded: You gotta believe!
+  button2TextIf2ButtonsNeeded: You are perfect.
   button1TextIf3ButtonsNeeded: 
   button2TextIf3ButtonsNeeded: 
   button3TextIf3ButtonsNeeded: 
   nextDialogueObject: {fileID: 0}
-  buttonOneDialogueObject: {fileID: 0}
-  buttonTwoDialogueObject: {fileID: 0}
+  buttonOneDialogueObject: {fileID: 11400000, guid: fc28963c3e134ae45b60006113a21347, type: 2}
+  buttonTwoDialogueObject: {fileID: 11400000, guid: 11d0fd75f3e43da4ab8a44aa3c4c46b5, type: 2}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 8
+  actionOnEnd: 0

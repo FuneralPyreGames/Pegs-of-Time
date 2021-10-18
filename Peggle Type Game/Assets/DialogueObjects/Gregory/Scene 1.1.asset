@@ -14,17 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   names:
   - Gregory
+  - Carmen
+  - Gregory
+  - Carmen
+  - Gregory
+  - Gregory
+  - Carmen
+  - Carmen
+  - Gregory
+  - Gregory
+  - Gregory
+  - Gregory
+  - Gregory
+  - Gregory
   - Gregory
   sentences:
-  - Test
-  - Test
+  - Hiya!
+  - "Hi! What\u2019s your name?\r"
+  - Gregory. How about you?
+  - My name is Carmen.
+  - "Nice to meet you!\r"
+  - 'Say, do you happen to know a thing or two about playing catch?
+
+'
+  - "Catch?\r"
+  - "You mean, the baseball one?\r"
+  - Yeah.
+  - "You see, my son\u2026\r"
+  - "I feel like I\u2019ve been losing touch with him lately\u2026\r"
+  - "And I thought a nice game of catch would help.\r"
+  - "But the problem is\u2026"
+  - "I don\u2019t know the slightest thing about playing catch."
+  - 'Could you maybe help with that?
+
+'
   speakerName: 
-  buttonsNeeded: 0000000002000000
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000
   voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 
-  button1TextIf2ButtonsNeeded: Don't go to level
-  button2TextIf2ButtonsNeeded: Do go
+  button1TextIf2ButtonsNeeded: "Sorry, I couldn\u2019t."
+  button2TextIf2ButtonsNeeded: Yes, I can!
   button1TextIf3ButtonsNeeded: 
   button2TextIf3ButtonsNeeded: 
   button3TextIf3ButtonsNeeded: 

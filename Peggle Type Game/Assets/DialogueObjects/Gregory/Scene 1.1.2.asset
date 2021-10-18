@@ -13,11 +13,27 @@ MonoBehaviour:
   m_Name: Scene 1.1.2
   m_EditorClassIdentifier: 
   names:
+  - Carmen
+  - Carmen
+  - Gregory
+  - Carmen
+  - Gregory
   - Gregory
   sentences:
-  - Enjoy the level
+  - 'Sure, I can help you!
+
+'
+  - 'Just put on your glove and we can get started!
+
+'
+  - My glove?
+  - 'Your baseball glove.
+
+'
+  - Oh, right.
+  - "Well, let\u2019s get started."
   speakerName: 
-  buttonsNeeded: 00000000
+  buttonsNeeded: 000000000000000000000000000000000000000000000000
   voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 

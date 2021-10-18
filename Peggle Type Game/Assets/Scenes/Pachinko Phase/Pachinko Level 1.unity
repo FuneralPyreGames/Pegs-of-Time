@@ -3983,6 +3983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 3222908781177491577, guid: 61393171153be48a7a2bd2dff522f9b2, type: 3}
+      propertyPath: m_Size.x
+      value: 69.82
+      objectReference: {fileID: 0}
     - target: {fileID: 3222908781177491578, guid: 61393171153be48a7a2bd2dff522f9b2, type: 3}
       propertyPath: m_RootOrder
       value: 9

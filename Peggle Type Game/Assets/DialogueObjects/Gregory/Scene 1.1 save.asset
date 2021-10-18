@@ -14,23 +14,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   names:
   - Gregory
+  - Carmen
+  - Gregory
+  - Carmen
+  - Gregory
+  - Gregory
+  - Carmen
+  - Carmen
+  - Gregory
+  - Gregory
+  - Gregory
+  - Gregory
+  - Gregory
+  - Gregory
   - Gregory
   sentences:
-  - Test
-  - Test
+  - 'Hiya!
+
+'
+  - "Hi! What\u2019s your name?"
+  - 'Gregory. How about you?
+
+'
+  - "My name is Carmen.\r"
+  - "Nice to meet you!\r"
+  - 'Say, do you happen to know a thing or two about playing catch?
+
+'
+  - 'Catch?
+
+'
+  - 'You mean, the baseball one?
+
+'
+  - Yeah.
+  - "You see, my son\u2026\r\n"
+  - "I feel like I\u2019ve been losing touch with him lately\u2026\r\n"
+  - 'And I thought a nice game of catch would help.
+
+'
+  - "But the problem is\u2026\r\n"
+  - "I don\u2019t know the slightest thing about playing catch."
+  - "Could you maybe help with that?\r"
   speakerName: 
-  buttonsNeeded: 0000000003000000
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000
   voiceClip: []
   audioOn: 0
   button1TextIf1ButtonNeeded: 
   button1TextIf2ButtonsNeeded: 
   button2TextIf2ButtonsNeeded: 
-  button1TextIf3ButtonsNeeded: Don't go to level
-  button2TextIf3ButtonsNeeded: Go to level
-  button3TextIf3ButtonsNeeded: I saved
+  button1TextIf3ButtonsNeeded: "Sorry, I couldn\u2019t."
+  button2TextIf3ButtonsNeeded: 'Yes, I can! '
+  button3TextIf3ButtonsNeeded: 'You already know! '
   nextDialogueObject: {fileID: 0}
   buttonOneDialogueObject: {fileID: 11400000, guid: f91f38a58ca372349a0b9aaa2146c6eb, type: 2}
   buttonTwoDialogueObject: {fileID: 11400000, guid: 45cae4a8a5394e54bafc85a78d2ecfe5, type: 2}
-  buttonThreeDialogueObject: {fileID: 11400000, guid: fc28963c3e134ae45b60006113a21347, type: 2}
+  buttonThreeDialogueObject: {fileID: 11400000, guid: 3ac9535efcef53548ba06f0f44cd01ac, type: 2}
   sceneToSwitchTo: 
   actionOnEnd: 0
