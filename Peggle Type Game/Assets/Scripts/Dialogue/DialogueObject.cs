@@ -10,9 +10,6 @@ public class DialogueObject : ScriptableObject
     public string[] sentences;
     public string speakerName;
     public int[] buttonsNeeded;
-    public AudioClip[] voiceClip;
-    public bool audioOn = false;
-    public string button1TextIf1ButtonNeeded;
     public string button1TextIf2ButtonsNeeded;
     public string button2TextIf2ButtonsNeeded;
     public string button1TextIf3ButtonsNeeded;

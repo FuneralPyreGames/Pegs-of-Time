@@ -47,9 +47,55 @@ public class PlayerCollisionController : MonoBehaviour
                 }
             }
         }
+        else if (collision.name == "Dexter")
+        {
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            if (persistentData.pachinkoLevel4Done == false)
+            {
+                collision.GetComponent<NPCHandler>().StartDialogue();
+            }
+            else if (persistentData.pachinkoLevel4Done == true)
+            {
+                if (persistentData.dexterSave == false)
+                {
+                    collision.GetComponent<NPCHandler>().StartOnCompleteDialogue();
+                }
+                else if (persistentData.dexterSave == true)
+                {
+                    if (persistentData.dexterHelped == false)
+                    {
+                        collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
+                    }
+
+                }
+            }
+        }
+        else if (collision.name == "Axel")
+        {
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            if (persistentData.pachinkoLevel5Done == false)
+            {
+                collision.GetComponent<NPCHandler>().StartDialogue();
+            }
+            else if (persistentData.pachinkoLevel5Done == true)
+            {
+                if (persistentData.axelSave == false)
+                {
+                    collision.GetComponent<NPCHandler>().StartOnCompleteDialogue();
+                }
+                else if (persistentData.axelSave == true)
+                {
+                    if (persistentData.axelHelped == false)
+                    {
+                        collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
+                    }
+
+                }
+            }
+        }
         else if (collision.name == "Beth"){
             collision.GetComponent<NPCHandler>().StartDialogue();
         }
-        //collision.GetComponent<NPCHandler>().StartDialogue();
+
     }
 }

@@ -24,7 +24,6 @@ public class DialogueManager : MonoBehaviour
     public SceneChangeManager sceneChangeManager;
     public StartOfGameHandler startOfGameHandler;
     public PersistentData persistentData;
-    private string button1TextIf1ButtonNeeded;
     private string button1TextIf2ButtonsNeeded;
     private string button2TextIf2ButtonsNeeded;
     private string button1TextIf3ButtonsNeeded;
@@ -49,7 +48,6 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(DialogueObject dialogue)
     {
         otherReference = dialogue;
-        button1TextIf1ButtonNeeded = dialogue.button1TextIf1ButtonNeeded;
         button1TextIf2ButtonsNeeded = dialogue.button1TextIf2ButtonsNeeded;
         button2TextIf2ButtonsNeeded = dialogue.button2TextIf2ButtonsNeeded;
         button1TextIf3ButtonsNeeded = dialogue.button1TextIf3ButtonsNeeded;
@@ -184,13 +182,6 @@ public class DialogueManager : MonoBehaviour
                 firstButton.SetActive(false);
                 secondButton.SetActive(false);
                 thirdButton.SetActive(false);
-                break;
-            case 1:
-                Continue.SetActive(false);
-                firstButton.SetActive(true);
-                secondButton.SetActive(false);
-                thirdButton.SetActive(false);
-                firstButtonText.text = button1TextIf1ButtonNeeded;
                 break;
             case 2:
                 Continue.SetActive(false);
