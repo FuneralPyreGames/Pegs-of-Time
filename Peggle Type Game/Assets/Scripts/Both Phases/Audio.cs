@@ -7,12 +7,16 @@ public class Audio : MonoBehaviour
 {
     [SerializeField] AudioMixerGroup Master;
     [SerializeField] AudioSource audioSource;
-    [SerializeField] AudioClip testSong;
+    #region SFX Audio Clips
     [SerializeField] AudioClip pegHitSFX;
     [SerializeField] AudioClip wallHitSFX;
     [SerializeField] AudioClip freeBallSFX;
     [SerializeField] AudioClip ballDespawnSFX;
     [SerializeField] AudioClip goldPegHitSFX;
+    #endregion
+    #region Song Audio Clips
+    [SerializeField] AudioClip mainMenuSong;
+    #endregion
     void Start()
     {
         audioSource.outputAudioMixerGroup = Master;
@@ -39,6 +43,12 @@ public class Audio : MonoBehaviour
                 audioSource.PlayOneShot(goldPegHitSFX, .5f);
                 break;
         }
+    }
+    #endregion
+    #region  Songs
+    public void PlayMainMenuMusic(){
+        audioSource.clip = mainMenuSong;
+        audioSource.Play();
     }
     #endregion
 }

@@ -10,6 +10,10 @@ public class MainMenu : MonoBehaviour
     public GameObject optionsWindow;
     public GameObject creditsWindow;
     public SceneChangeManager sceneChangeManager;
+    public Audio Audio;
+    private void Awake() {
+        StartCoroutine(DelayedMainMenuMusic());
+    }
     public void OpenOptions()
     {
         optionsWindow.SetActive(true);
@@ -27,5 +31,10 @@ public class MainMenu : MonoBehaviour
     public void StartGame(){
         sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
         sceneChangeManager.StartGame();
+    }
+    IEnumerator DelayedMainMenuMusic(){
+        yield return new WaitForSeconds(.10f);
+        Audio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();
+        Audio.PlayMainMenuMusic();
     }
 }
