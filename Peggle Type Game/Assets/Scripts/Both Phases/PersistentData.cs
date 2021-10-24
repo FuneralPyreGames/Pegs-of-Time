@@ -47,7 +47,7 @@ public class PersistentData : MonoBehaviour
                 StartCoroutine(GiveLoadingTimeL4());
                 break;
             case "Pachinko Level 5":
-            StartCoroutine(GiveLoadingTimeL5());
+                StartCoroutine(GiveLoadingTimeL5());
                 break;
         }
     }
@@ -94,7 +94,7 @@ public class PersistentData : MonoBehaviour
         Player = GameObject.Find("Player");
         cinemachineCamera = GameObject.Find("CM vcam1");
         cinemachineCamera.SetActive(false);
-        Player.transform.position = new Vector3(102.515f, 5.885516f, 1);
+        Player.transform.position = new Vector3(94.52f, -7.154463f, 1);
         yield return new WaitForSeconds(0.25f);
         cinemachineCamera.SetActive(true);
     }

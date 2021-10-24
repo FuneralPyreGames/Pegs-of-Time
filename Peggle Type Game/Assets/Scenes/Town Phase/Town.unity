@@ -27354,7 +27354,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 20
-      m_TileSpriteIndex: 20
+      m_TileSpriteIndex: 21
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27747,10 +27747,10 @@ Tilemap:
     m_Data: {fileID: -1905935008855942035, guid: c40ad0a8c55f1764bbe7f2ee5d887bdf, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -2457836486548080475, guid: c40ad0a8c55f1764bbe7f2ee5d887bdf, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -8728429778605437444, guid: c40ad0a8c55f1764bbe7f2ee5d887bdf, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -8728429778605437444, guid: c40ad0a8c55f1764bbe7f2ee5d887bdf, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 366
     m_Data:
@@ -27988,9 +27988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26608bef6d5e6c14d9a8f68aef6c559e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingDialogueObject: {fileID: 0}
-  ifCompleteDialogueObject: {fileID: 0}
-  onCompleteDialogueObject: {fileID: 0}
+  startingDialogueObject: {fileID: 11400000, guid: 0a699170a1e9643f8bdad5725979ecc0, type: 2}
+  ifCompleteDialogueObject: {fileID: 11400000, guid: 59504b84891f9458e9afdaa114b6f840, type: 2}
+  onCompleteDialogueObject: {fileID: 11400000, guid: 68dd6c34b3fc84dd58a67859eb7ae38c, type: 2}
   movementPoint: {fileID: 1280281101}
   dialogueManager: {fileID: 0}
 --- !u!61 &723660778

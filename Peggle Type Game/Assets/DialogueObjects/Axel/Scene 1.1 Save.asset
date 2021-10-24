@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
-  m_Name: Scene 1.1
+  m_Name: Scene 1.1 Save
   m_EditorClassIdentifier: 
   names:
   - Carmen
@@ -26,10 +26,8 @@ MonoBehaviour:
   - Carmen
   - Axel
   sentences:
-  - 'Hello!
-
-'
-  - "\u2026\n"
+  - Hello!
+  - ...
   - Hello?
   - ...
   - Hello?
@@ -37,23 +35,27 @@ MonoBehaviour:
 
 '
   - "Um\u2026 to say hello to you.\n"
-  - "Well, if you\u2019re not gonna help me beat this boss, go away.\n"
-  - "Oh, you\u2019re a gamer?\n"
+  - "Well, if you\u2019re not gonna help me beat this boss, go away."
+  - "Oh, you\u2019re a gamer?"
   - 'Yeah, and now that Mallory has to do stuff today, I finally have time to play.
 
 '
-  - Mallory is your girlfriend?
-  - Yeah. Now help me play or walk away.
+  - 'Mallory is your girlfriend?
+
+'
+  - 'Yeah. Now help me play or walk away.
+
+'
   speakerName: 
-  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000
-  button1TextIf2ButtonsNeeded: Okay then?
-  button2TextIf2ButtonsNeeded: Let me help.
-  button1TextIf3ButtonsNeeded: 
-  button2TextIf3ButtonsNeeded: 
-  button3TextIf3ButtonsNeeded: 
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000
+  button1TextIf2ButtonsNeeded: 
+  button2TextIf2ButtonsNeeded: 
+  button1TextIf3ButtonsNeeded: Okay then?
+  button2TextIf3ButtonsNeeded: Let me help.
+  button3TextIf3ButtonsNeeded: You're doing fine.
   nextDialogueObject: {fileID: 0}
   buttonOneDialogueObject: {fileID: 11400000, guid: 36ee8611d585042a0b98e4747a441f4c, type: 2}
   buttonTwoDialogueObject: {fileID: 11400000, guid: efdc2a0f8a91040e9b28196d56173d96, type: 2}
-  buttonThreeDialogueObject: {fileID: 0}
+  buttonThreeDialogueObject: {fileID: 11400000, guid: b633bb178ce5c4f64afeed07014ad5c6, type: 2}
   sceneToSwitchTo: 
   actionOnEnd: 0

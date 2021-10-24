@@ -95,7 +95,6 @@ public class DialogueManager : MonoBehaviour
     }
     void EndDialogue()
     {
-        Debug.Log(actionOnEnd);
         actionOnEnd = otherReference.actionOnEnd;
         if (actionOnEnd == 0){ //Completely end dialogue
             LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
@@ -148,6 +147,13 @@ public class DialogueManager : MonoBehaviour
             persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
             persistentData.dexterSave = true;
             persistentData.dexterHelped = true;
+            LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
+        }
+        if (actionOnEnd == 10)//helping Axel
+        {
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            persistentData.axelSave = true;
+            persistentData.axelHelped = true;
             LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
         }
     }
