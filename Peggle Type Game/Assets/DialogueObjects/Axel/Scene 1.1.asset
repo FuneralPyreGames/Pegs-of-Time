@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
+  m_Name: Scene 1.1
+  m_EditorClassIdentifier: 
+  names:
+  - Carmen
+  - Axel
+  - Carmen
+  - Axel
+  - Carmen
+  - Axel
+  - Carmen
+  - Axel
+  - Carmen
+  - Axel
+  - Carmen
+  - Axel
+  sentences:
+  - 'Hello!
+
+'
+  - "\u2026\n"
+  - Hello?
+  - ...
+  - Hello?
+  - 'What do you want?
+
+'
+  - "Um\u2026 to say hello to you.\n"
+  - "Well, if you\u2019re not gonna help me beat this boss, go away.\n"
+  - "Oh, you\u2019re a gamer?\n"
+  - 'Yeah, and now that Mallory has to do stuff today, I finally have time to play.
+
+'
+  - Mallory is your girlfriend?
+  - Yeah. Now help me play or walk away.
+  speakerName: 
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000
+  button1TextIf2ButtonsNeeded: Okay then?
+  button2TextIf2ButtonsNeeded: Let me help.
+  button1TextIf3ButtonsNeeded: 
+  button2TextIf3ButtonsNeeded: 
+  button3TextIf3ButtonsNeeded: 
+  nextDialogueObject: {fileID: 0}
+  buttonOneDialogueObject: {fileID: 0}
+  buttonTwoDialogueObject: {fileID: 0}
+  buttonThreeDialogueObject: {fileID: 0}
+  sceneToSwitchTo: 
+  actionOnEnd: 0

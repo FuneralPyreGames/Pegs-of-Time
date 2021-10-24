@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pachinko Phase/Pachinko Level 4.unity
     guid: 5a345aebbe434fe4ab760e1079258283
+  - enabled: 1
+    path: Assets/Scenes/Pachinko Phase/Pachinko Level 5.unity
+    guid: 8b8ee57d7547249ed8cb1342265eea7d
   m_configObjects: {}
