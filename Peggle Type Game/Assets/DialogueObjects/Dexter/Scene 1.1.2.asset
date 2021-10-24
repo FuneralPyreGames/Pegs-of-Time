@@ -46,4 +46,4 @@ MonoBehaviour:
   buttonTwoDialogueObject: {fileID: 0}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: Pachinko Level 4
-  actionOnEnd: 0
+  actionOnEnd: 2

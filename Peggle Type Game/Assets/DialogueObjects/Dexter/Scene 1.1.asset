@@ -60,4 +60,4 @@ MonoBehaviour:
   buttonTwoDialogueObject: {fileID: 11400000, guid: 8367e6eb3bebe4146b6bd92162c97fef, type: 2}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 2
+  actionOnEnd: 0

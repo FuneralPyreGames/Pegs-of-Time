@@ -4822,7 +4822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8800813194675577026, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
       propertyPath: balls
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8800813194675577026, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
       propertyPath: winAnim
