@@ -51,6 +51,10 @@ public class PachinkoData : MonoBehaviour
                 persistentData.pachinkoLevel3Done = true;
                 sceneChangeManager.LoadTown("Pachinko Level 3");
                 break;
+            case 4:
+                persistentData.pachinkoLevel4Done = true;
+                sceneChangeManager.LoadTown("Pachinko Level 4");
+                break;
         }
     }
     public void Lose(){

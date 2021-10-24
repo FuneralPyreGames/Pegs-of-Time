@@ -27943,7 +27943,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723660775}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.37, y: -10.79, z: -320.0534}
+  m_LocalPosition: {x: 47.6, y: -10.79, z: -320.0534}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1280281102}
@@ -28251,7 +28251,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856041518}
-  m_LocalRotation: {x: 0, y: 0.000000039697202, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.000000015870913, z: 0, w: 1}
   m_LocalPosition: {x: -6.8843307, y: 0.045532584, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -28617,9 +28617,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26608bef6d5e6c14d9a8f68aef6c559e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingDialogueObject: {fileID: 0}
-  ifCompleteDialogueObject: {fileID: 0}
-  onCompleteDialogueObject: {fileID: 0}
+  startingDialogueObject: {fileID: 11400000, guid: 6344c12be554e417da3c81918b2c4098, type: 2}
+  ifCompleteDialogueObject: {fileID: 11400000, guid: 9d9e50dabef3a42469aaaf3d8e24a9ff, type: 2}
+  onCompleteDialogueObject: {fileID: 11400000, guid: 14e035149fb684bf585feaacafdfce77, type: 2}
   movementPoint: {fileID: 122229421}
   dialogueManager: {fileID: 0}
 --- !u!61 &997605547
@@ -29151,7 +29151,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 1.43
+  m_ShapeLightFalloffSize: 0
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -1.5721016, y: -16.58154, z: 0}
@@ -30424,8 +30424,8 @@ MonoBehaviour:
   - {x: 31.947575, y: -13.854863, z: 0}
   - {x: 40.185932, y: -14.095931, z: 0}
   - {x: 40.17158, y: -3.2743282, z: 0}
-  - {x: 43.062572, y: -3.0455236, z: 0}
-  - {x: 42.992123, y: -17.303738, z: 0}
+  - {x: 44.70145, y: -3.0455236, z: 0}
+  - {x: 44.631, y: -17.303738, z: 0}
   - {x: 26.83414, y: -17.819996, z: 0}
   - {x: 27.638073, y: -7.3912582, z: 0}
 --- !u!1 &1640945872
@@ -44157,8 +44157,8 @@ MonoBehaviour:
   - {x: 31.80354, y: 8.82283, z: 0}
   - {x: 31.68607, y: 24.36813, z: 0}
   - {x: 51.82581, y: 24.340496, z: 0}
-  - {x: 51.321903, y: 3.8048882, z: 0}
-  - {x: 48.18532, y: 3.698666, z: 0}
+  - {x: 51.787365, y: 3.3394241, z: 0}
+  - {x: 47.520374, y: 3.698666, z: 0}
   - {x: 47.641857, y: 19.226429, z: 0}
   - {x: 36.5395, y: 19.226429, z: 0}
   - {x: 36.617146, y: 3.9315825, z: 0}
@@ -44412,7 +44412,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948538736}
-  m_LocalRotation: {x: 0, y: 0.000000039697202, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.000000015870913, z: 0, w: 1}
   m_LocalPosition: {x: -6.8843307, y: 0.045532584, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -44645,9 +44645,9 @@ MonoBehaviour:
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -11.999296, y: -8.019278, z: 0}
-  - {x: 51.706997, y: -8.142084, z: 0}
-  - {x: 51.849037, y: 0.910573, z: 0}
-  - {x: 51.93158, y: 8.2401705, z: 0}
+  - {x: 52.29571, y: -8.011258, z: 0}
+  - {x: 52.176098, y: 0.910573, z: 0}
+  - {x: 52.19323, y: 8.2401705, z: 0}
   - {x: -12.0737915, y: 8.290773, z: 0}
 --- !u!1 &2110287867
 GameObject:

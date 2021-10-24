@@ -27,6 +27,9 @@ public class SceneChangeManager : MonoBehaviour
             case "Pachinko Level 3":
                 SceneManager.LoadScene("Pachinko Level 3");
                 break;
+            case "Pachinko Level 4":
+                SceneManager.LoadScene("Pachinko Level 4");
+                break;
         }
     }
     public void LoadStartOfGameReturn()

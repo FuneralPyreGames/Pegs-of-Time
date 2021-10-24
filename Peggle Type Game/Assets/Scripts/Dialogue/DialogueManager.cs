@@ -136,11 +136,18 @@ public class DialogueManager : MonoBehaviour
             persistentData.malloryHelped = true;
             LeanTween.scale(gameObject, new Vector3 (0,0,0), 0.6f);
         }    
-        if (actionOnEnd == 8)
+        if (actionOnEnd == 8) //helping gregory
         {
             persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
             persistentData.gregorySave = true;
             persistentData.gregoryHelped = true;
+            LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
+        }
+        if (actionOnEnd == 9) //helping dexter
+        {
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            persistentData.dexterSave = true;
+            persistentData.dexterHelped = true;
             LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
         }
     }
