@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
+  m_Name: Scene 1
+  m_EditorClassIdentifier: 
+  names:
+  - Carmen
+  - Carmen
+  - Roman
+  - Roman
+  - Carmen
+  - Carmen
+  - Roman
+  - Roman
+  - Roman
+  - Roman
+  - Carmen
+  - Roman
+  - Roman
+  - Carmen
+  - Carmen
+  - Roman
+  - Roman
+  - Roman
+  - Roman
+  - Roman
+  - Roman
+  - Carmen
+  - Roman
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Roman
+  - Roman
+  - Carmen
+  sentences:
+  - 'Hello, are you the scientist?
+
+'
+  - "I\u2019m here for the experiment.\n"
+  - 'Ah, yes.
+
+'
+  - 'Hahahahahahahahahahahahahahahahaha!
+
+'
+  - "\u2026"
+  - What?
+  - 'You see, you have fallen into my trap.
+
+'
+  - 'I have been watching you.
+
+'
+  - "Throughout all of your various, how do I say\u2026\n"
+  - Loops.
+  - Wait, you know about those?
+  - 'Know about them?
+
+'
+  - "Why, I\u2019m the one who started them.\n"
+  - 'You!
+
+'
+  - 'But why?
+
+'
+  - You see, I am a mad scientist.
+  - But in order to rule the world, I need to have an equally balanced core.
+  - 'I need the kindness to balance out my evil.
+
+'
+  - "So, that\u2019s where you come in.\n"
+  - I instigated the loop to make sure that the most kind version of you is present.
+  - 'So now, I must harvest that kindness.
+
+'
+  - 'You know what, no.
+
+'
+  - 'Huh?
+
+'
+  - "I\u2019ve spent so many loops being kind to people, that I almost forgot the
+    most important thing.\n"
+  - 'Being kind to myself.
+
+'
+  - "So it\u2019s time for some self-care\u2026\n"
+  - 'Which happens to be thwarting you and getting my life back!
+
+'
+  - 'You really think you can beat me?
+
+'
+  - 'Bring it on!
+
+'
+  - 'Gladly!
+
+'
+  speakerName: 
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  button1TextIf2ButtonsNeeded: 
+  button2TextIf2ButtonsNeeded: 
+  button1TextIf3ButtonsNeeded: 
+  button2TextIf3ButtonsNeeded: 
+  button3TextIf3ButtonsNeeded: 
+  nextDialogueObject: {fileID: 0}
+  buttonOneDialogueObject: {fileID: 0}
+  buttonTwoDialogueObject: {fileID: 0}
+  buttonThreeDialogueObject: {fileID: 0}
+  sceneToSwitchTo: Pachinko Level 6
+  actionOnEnd: 2

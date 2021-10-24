@@ -158,6 +158,7 @@ public class DialogueManager : MonoBehaviour
         }
         if (actionOnEnd == 11) //sees if game can continue to the end
         {
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
             if (persistentData.malloryHelped == true && persistentData.gregoryHelped == true && persistentData.dexterHelped == true && persistentData.axelHelped == true)
             {
                 CancelDialogue();
