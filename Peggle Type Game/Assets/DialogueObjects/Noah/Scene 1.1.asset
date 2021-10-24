@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
+  m_Name: Scene 1.1
+  m_EditorClassIdentifier: 
+  names:
+  - Noah
+  - Noah
+  - Noah
+  - Carmen
+  - Noah
+  - Noah
+  - Carmen
+  - Noah
+  - Noah
+  - Noah
+  - Noah
+  - Noah
+  - Carmen
+  - Carmen
+  - Noah
+  - Noah
+  - Noah
+  - Carmen
+  - Noah
+  sentences:
+  - Hi!
+  - "Please don\u2019t look at the door behind me.\n"
+  - How are you?
+  - What door?
+  - Nothing!
+  - "There\u2019s no door.\n"
+  - "But it\u2019s right behind you?\n"
+  - "No it\u2026"
+  - Fine.
+  - "I\u2019ll tell you about the door.\n"
+  - "See, I am the bodyguard for a very, very influential scientist. \n"
+  - "He\u2019s looking for the most helpful person he can find for an\u2026 experiment.\n"
+  - 'An experiment?
+
+'
+  - "What\u2019s it about?\n"
+  - "He\u2019s looking to figure out the\u2026"
+  - "The um\u2026\n"
+  - 'The brain patterns of those who are exceptionally kind!
+
+'
+  - 'Oh, that sounds really cool!
+
+'
+  - "Say, do you think you could be the person he\u2019s looking for?\n"
+  speakerName: 
+  buttonsNeeded: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000
+  button1TextIf2ButtonsNeeded: I don't think so.
+  button2TextIf2ButtonsNeeded: I think I am!
+  button1TextIf3ButtonsNeeded: 
+  button2TextIf3ButtonsNeeded: 
+  button3TextIf3ButtonsNeeded: 
+  nextDialogueObject: {fileID: 0}
+  buttonOneDialogueObject: {fileID: 11400000, guid: 11507136663d24c68a4197c05f9e5746, type: 2}
+  buttonTwoDialogueObject: {fileID: 11400000, guid: db06a26f380674fa8af539d5f67148c4, type: 2}
+  buttonThreeDialogueObject: {fileID: 0}
+  sceneToSwitchTo: 
+  actionOnEnd: 0

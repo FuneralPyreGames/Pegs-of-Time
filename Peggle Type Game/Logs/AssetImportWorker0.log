@@ -2013,3 +2013,345 @@ Received Import Request.
 Start importing Assets/Scenes/Pachinko Phase/Pachinko Level 1.unity using Guid(7b1e2ae4de3784c2088574f668c772a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0484dc525dfe3e73a6ab0c2d75f739ba') in 0.002389 seconds 
   Import took 0.010039 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 179.545264 seconds.
+  path: Assets/DialogueObjects/Noah
+  artifactKey: Guid(b1bb479a49daf5c4684d9eb562577a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah using Guid(b1bb479a49daf5c4684d9eb562577a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031cead6f284cca2ed973378e4a675ad') in 0.004028 seconds 
+  Import took 0.047917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.622820 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 1.1..asset
+  artifactKey: Guid(1993fa675b6db4bf7875d0b276a97be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 1.1..asset using Guid(1993fa675b6db4bf7875d0b276a97be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d132571b667f100ced7f57e13a01e3') in 0.010806 seconds 
+  Import took 0.015926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.148558 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 1.1.asset
+  artifactKey: Guid(1993fa675b6db4bf7875d0b276a97be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 1.1.asset using Guid(1993fa675b6db4bf7875d0b276a97be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ccee3b5a8d8502523001de8ee32339') in 0.002546 seconds 
+  Import took 0.007504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.523684 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 1.1.1.asset
+  artifactKey: Guid(11507136663d24c68a4197c05f9e5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 1.1.1.asset using Guid(11507136663d24c68a4197c05f9e5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b8e80fb538b98721253e63a7582d22') in 0.002221 seconds 
+  Import took 0.006956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.846642 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.asset
+  artifactKey: Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.asset using Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e4ec8aba72ef4e8633071f62b6ad35') in 0.005407 seconds 
+  Import took 0.010184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.324415 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.2.asset
+  artifactKey: Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.2.asset using Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006f8cf4c13f8176cecfc8679b83a7c3') in 0.002803 seconds 
+  Import took 0.007672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.942211 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.1.asset
+  artifactKey: Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.1.asset using Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fae9e3e183002f92125b520d2719e3') in 0.015112 seconds 
+  Import took 0.039765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.305278 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.2.asset
+  artifactKey: Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.2.asset using Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa88eaca9866e3307a06adff5842e64') in 0.003064 seconds 
+  Import took 0.008116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.081144 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.asset
+  artifactKey: Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.asset using Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8bc4bbde4e81bc2ed91813ccef45b8') in 0.002142 seconds 
+  Import took 0.006931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.490459 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.asset
+  artifactKey: Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.asset using Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f35a48d3a21839b2af5885691a82ba') in 0.004109 seconds 
+  Import took 0.009733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.441913 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 1.1.asset
+  artifactKey: Guid(1993fa675b6db4bf7875d0b276a97be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 1.1.asset using Guid(1993fa675b6db4bf7875d0b276a97be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0b85f7191ffad109b103defd662ee1') in 0.020490 seconds 
+  Import took 0.034495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.1.asset
+  artifactKey: Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.1.asset using Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3b17353224214fe2939d1fe129f236') in 0.002273 seconds 
+  Import took 0.006543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.asset
+  artifactKey: Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.asset using Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281b37bfa7330b78cb6a188ec0bc3ca8') in 0.001992 seconds 
+  Import took 0.006325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001377 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.2.asset
+  artifactKey: Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.2.asset using Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51938ad95de6b707fba67d8a9c9c5a81') in 0.002382 seconds 
+  Import took 0.007473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.680788 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 1.1.1.asset
+  artifactKey: Guid(11507136663d24c68a4197c05f9e5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 1.1.1.asset using Guid(11507136663d24c68a4197c05f9e5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feeac2e47166a14ca3c961ae37f92d2') in 0.004221 seconds 
+  Import took 0.016958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005815 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 1.1.1.asset
+  artifactKey: Guid(11507136663d24c68a4197c05f9e5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 1.1.1.asset using Guid(11507136663d24c68a4197c05f9e5746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feeac2e47166a14ca3c961ae37f92d2') in 0.006957 seconds 
+  Import took 0.012464 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3146ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (2730ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (1470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (291ms)
+				ProcessInitializeOnLoadAttributes (1135ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (78ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 295.3 MB.
+System memory in use after: 295.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4075.
+Total: 4.563375 ms (FindLiveObjects: 0.264875 ms CreateObjectMapping: 0.081542 ms MarkObjects: 4.179459 ms  DeleteObjects: 0.036541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223.188746 seconds.
+  path: Assets/DialogueObjects/Start Of Game/Scene 1.asset
+  artifactKey: Guid(0e19885456140a543b58b687370884a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Start Of Game/Scene 1.asset using Guid(0e19885456140a543b58b687370884a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23faadb1ce91d70d1fe6a82aef6ed204') in 0.026911 seconds 
+  Import took 0.033214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/DialogueObjects/Start Of Game/Scene 3.asset
+  artifactKey: Guid(f202da78888204e44ac52b1138e5db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Start Of Game/Scene 3.asset using Guid(f202da78888204e44ac52b1138e5db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfd3f82869d93472bd1050a60679899') in 0.002199 seconds 
+  Import took 0.006110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/DialogueObjects/Start Of Game/Scene 2.2.asset
+  artifactKey: Guid(20f35713c86fe42aeaea9a9c6ded0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Start Of Game/Scene 2.2.asset using Guid(20f35713c86fe42aeaea9a9c6ded0bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ccac65d674f69216721c2ad9bdd82e') in 0.001372 seconds 
+  Import took 0.005294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/DialogueObjects/Start Of Game/Scene 2.1.1.asset
+  artifactKey: Guid(faadca8c2f0204c209c891a3479e7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Start Of Game/Scene 2.1.1.asset using Guid(faadca8c2f0204c209c891a3479e7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e976f18a839387f4af0f594a6ee46') in 0.001443 seconds 
+  Import took 0.005370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/DialogueObjects/Start Of Game/Scene 2.1.2.asset
+  artifactKey: Guid(986d22c136bb94405b2471980bae301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Start Of Game/Scene 2.1.2.asset using Guid(986d22c136bb94405b2471980bae301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e194fd9eafea8a4111a85e21e08815') in 0.001850 seconds 
+  Import took 0.006185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/DialogueObjects/Start Of Game/Scene 4.asset
+  artifactKey: Guid(6053565e4b0a64a2cb2c9abce07be4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Start Of Game/Scene 4.asset using Guid(6053565e4b0a64a2cb2c9abce07be4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50566773a0e5677d417e1317f19dfe0') in 0.001673 seconds 
+  Import took 0.005650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/DialogueObjects/Start Of Game/Scene 2.1.asset
+  artifactKey: Guid(32e65e7f7718b42a1b53c5aeb63d3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Start Of Game/Scene 2.1.asset using Guid(32e65e7f7718b42a1b53c5aeb63d3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19b42daac3ae63c41a4c0e7abdc93f0') in 0.001772 seconds 
+  Import took 0.006215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.006163 seconds.
+  path: Assets/Scenes/Town Phase/Town.unity
+  artifactKey: Guid(f19a61b86909e5b44825f6ae7dfed636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Town Phase/Town.unity using Guid(f19a61b86909e5b44825f6ae7dfed636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce21b0f5e985261f554ce4175b1f147') in 0.001250 seconds 
+  Import took 0.005891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.521088 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.1.asset
+  artifactKey: Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.1.asset using Guid(7021751c519ca4fab8c43aae213266ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b28e1fef7ffecfbf9799ae218d692ac') in 0.010243 seconds 
+  Import took 0.036026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.asset
+  artifactKey: Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.asset using Guid(db06a26f380674fa8af539d5f67148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c7a7162a4e2cb3464c65dcea123c2c') in 0.005110 seconds 
+  Import took 0.010182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.855408 seconds.
+  path: Assets/DialogueObjects/Noah/Scene 2.1.2.asset
+  artifactKey: Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueObjects/Noah/Scene 2.1.2.asset using Guid(180726ec057b44b5a9bf10706c86aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cdf2c693b6b775f3b37e0cef5f6a74') in 0.006271 seconds 
+  Import took 0.020501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.322373 seconds.
+  path: Assets/Scenes/Town Phase/Roman's Lab.unity
+  artifactKey: Guid(6493d88a7a55e487b963083549f478d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Town Phase/Roman's Lab.unity using Guid(6493d88a7a55e487b963083549f478d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b7b5129d519c5d3322b895deb6ad4a') in 0.002380 seconds 
+  Import took 0.007050 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3504ms)
+		BeginReloadAssembly (299ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (3101ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1723ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (348ms)
+				ProcessInitializeOnLoadAttributes (1320ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (83ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 295.6 MB.
+System memory in use after: 295.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4078.
+Total: 3.327375 ms (FindLiveObjects: 0.329417 ms CreateObjectMapping: 0.104042 ms MarkObjects: 2.848917 ms  DeleteObjects: 0.044000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

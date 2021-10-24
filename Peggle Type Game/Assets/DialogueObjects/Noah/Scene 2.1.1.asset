@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
+  m_Name: Scene 2.1.1
+  m_EditorClassIdentifier: 
+  names:
+  - Noah
+  - Noah
+  - Noah
+  sentences:
+  - "I hate to be like this, but\u2026"
+  - "I think you\u2019re wrong.\n"
+  - Goodbye.
+  speakerName: 
+  buttonsNeeded: 000000000000000000000000
+  button1TextIf2ButtonsNeeded: 
+  button2TextIf2ButtonsNeeded: 
+  button1TextIf3ButtonsNeeded: 
+  button2TextIf3ButtonsNeeded: 
+  button3TextIf3ButtonsNeeded: 
+  nextDialogueObject: {fileID: 0}
+  buttonOneDialogueObject: {fileID: 0}
+  buttonTwoDialogueObject: {fileID: 0}
+  buttonThreeDialogueObject: {fileID: 0}
+  sceneToSwitchTo: 
+  actionOnEnd: 0

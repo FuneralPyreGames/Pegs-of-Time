@@ -96,6 +96,9 @@ public class PlayerCollisionController : MonoBehaviour
         else if (collision.name == "Beth"){
             collision.GetComponent<NPCHandler>().StartDialogue();
         }
+        else if (collision.name == "Noah"){
+            collision.GetComponent<NPCHandler>().StartDialogue();
+        }
 
     }
 }

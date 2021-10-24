@@ -156,6 +156,19 @@ public class DialogueManager : MonoBehaviour
             persistentData.axelHelped = true;
             LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
         }
+        if (actionOnEnd == 11) //sees if game can continue to the end
+        {
+            if (persistentData.malloryHelped == true && persistentData.gregoryHelped == true && persistentData.dexterHelped == true && persistentData.axelHelped == true)
+            {
+                CancelDialogue();
+                StartDialogue(buttonTwoDialogueObject); 
+            }
+            else
+            {
+            CancelDialogue();
+            StartDialogue(buttonOneDialogueObject); 
+            }
+        }
     }
     #endregion
     #region OtherFunctions
