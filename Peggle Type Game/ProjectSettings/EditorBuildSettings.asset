@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Other/LoopOver.unity
     guid: 2533bcb06c2e64194808079906bdd671
+  - enabled: 1
+    path: Assets/Scenes/Town Phase/EndOfGame.unity
+    guid: d92067a00fa004a8fa0adc650ffc3441
+  - enabled: 1
+    path: Assets/Scenes/Other/The End.unity
+    guid: 74810b26181c64e94a147b4b960452eb
   m_configObjects: {}

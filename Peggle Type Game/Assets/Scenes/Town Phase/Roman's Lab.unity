@@ -1091,7 +1091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingDialogueObject: {fileID: 11400000, guid: 18e60152fd01a44bf8b40d336d8b8c76, type: 2}
   ifCompleteDialogueObject: {fileID: 0}
-  onCompleteDialogueObject: {fileID: 0}
+  onCompleteDialogueObject: {fileID: 11400000, guid: 978ec4722f4dc49ee82ee16bc82459bb, type: 2}
   movementPoint: {fileID: 792687777}
   dialogueManager: {fileID: 0}
 --- !u!61 &577376155

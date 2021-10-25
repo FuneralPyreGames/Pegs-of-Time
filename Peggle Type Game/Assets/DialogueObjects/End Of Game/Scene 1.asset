@@ -10,26 +10,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
-  m_Name: Scene 2
+  m_Name: Scene 1
   m_EditorClassIdentifier: 
   names:
-  - Roman
-  - Roman
-  - Roman
-  - Roman
-  - Roman
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
+  - Carmen
   sentences:
-  - You beat me?
-  - "I can\u2019t believe it.\n"
-  - 'You know what, the loop is over.
+  - 'Well, I made it out.
 
 '
-  - 'Enjoy your life.
+  - "I\u2019ll miss this town.\n"
+  - 'Especially some of the great people I met.
 
 '
-  - Goodbye.
+  - 'I just hope that they are able to take the lessons I gave them,
+
+'
+  - 'and put them to great use throughout their lives.
+
+'
+  - 'But for now, sadly, I have to go.
+
+'
+  - 'Thank goodness only one day passed in the real world.
+
+'
+  - 'Goodbye Silverford.
+
+'
+  - "I\u2019ll miss all the days I spent with you.\n"
   speakerName: 
-  buttonsNeeded: 0000000000000000000000000000000000000000
+  buttonsNeeded: 000000000000000000000000000000000000000000000000000000000000000000000000
   button1TextIf2ButtonsNeeded: 
   button2TextIf2ButtonsNeeded: 
   button1TextIf3ButtonsNeeded: 
@@ -40,4 +58,4 @@ MonoBehaviour:
   buttonTwoDialogueObject: {fileID: 0}
   buttonThreeDialogueObject: {fileID: 0}
   sceneToSwitchTo: 
-  actionOnEnd: 12
+  actionOnEnd: 13

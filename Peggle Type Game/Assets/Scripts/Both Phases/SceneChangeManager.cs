@@ -62,5 +62,13 @@ public class SceneChangeManager : MonoBehaviour
     {
         SceneManager.LoadScene("LoopOver");
     }
+    public void LoadEndOfGame()
+    {
+        SceneManager.LoadScene("EndOfGame");
+    }
+    public void LoadTheEnd()
+    {
+        SceneManager.LoadScene("The End");
+    }
     #endregion
 }

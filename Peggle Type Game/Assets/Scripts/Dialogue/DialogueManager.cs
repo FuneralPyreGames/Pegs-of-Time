@@ -23,6 +23,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject npcToMove;
     public SceneChangeManager sceneChangeManager;
     public StartOfGameHandler startOfGameHandler;
+    public EndOfGameManager endOfGameManager;
     public PersistentData persistentData;
     private string button1TextIf2ButtonsNeeded;
     private string button2TextIf2ButtonsNeeded;
@@ -170,9 +171,15 @@ public class DialogueManager : MonoBehaviour
             StartDialogue(buttonOneDialogueObject); 
             }
         }
-        if (actionOnEnd == 12)//ends the game
+        if (actionOnEnd == 12)//Goes to end of game
         {
-            Debug.Log("go to end of game");
+            sceneChangeManager.LoadEndOfGame();
+        }
+        if (actionOnEnd == 13)//ends the game proper
+        {
+            LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.6f);
+            endOfGameManager = GameObject.Find("EndOfGameManager").GetComponent<EndOfGameManager>();
+            endOfGameManager.EndingCutscene();
         }
     }
     #endregion

@@ -29,11 +29,16 @@ public class LoopManager : MonoBehaviour
     {
         persistentData.loopOn = false;
         StopAllCoroutines();
-        Debug.Log("Loop is over");
         loopDisplay.SetActive(false);
         persistentData.Save();
         sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
         sceneChangeManager.LoadLoopOver();
+    }
+    public void StopLoop()
+    {
+        persistentData.loopOn = false;
+        StopCoroutine(LoopTimer());
+        loopDisplay.SetActive(false);
     }
     public void DisplayLoopText()
     {
@@ -72,7 +77,6 @@ public class LoopManager : MonoBehaviour
     }
     IEnumerator LoopTimer()
     {
-        Debug.Log("In loop");
         yield return new WaitForSecondsRealtime(1);
         StartCoroutine(LoopTimer());
         if (seconds ==  0){
