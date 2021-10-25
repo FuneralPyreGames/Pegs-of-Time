@@ -170,6 +170,10 @@ public class DialogueManager : MonoBehaviour
             StartDialogue(buttonOneDialogueObject); 
             }
         }
+        if (actionOnEnd == 12)//ends the game
+        {
+            Debug.Log("go to end of game");
+        }
     }
     #endregion
     #region OtherFunctions

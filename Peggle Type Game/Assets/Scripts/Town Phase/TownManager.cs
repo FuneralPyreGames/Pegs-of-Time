@@ -8,8 +8,7 @@ public class TownManager : MonoBehaviour
     public LoopManager loopManager;
     private void Awake()
     {
-        StartCoroutine(WaitToStartLoop());
-
+        StartCoroutine(StartUpTown());
     }
     private void CheckLoopState()
     {
@@ -18,10 +17,11 @@ public class TownManager : MonoBehaviour
             loopManager.StartLoop();
         }
     }
-    IEnumerator WaitToStartLoop()
+    IEnumerator StartUpTown()
     {
         yield return new WaitForSeconds(0.25f);
         persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+        persistentData.Load();
         CheckLoopState();
     }
 }

@@ -32,6 +32,10 @@ public class MainMenu : MonoBehaviour
         sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
         sceneChangeManager.StartGame();
     }
+    public void LoadGame(){
+        sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
+        sceneChangeManager.LoadTownBasic();
+    }
     IEnumerator DelayedMainMenuMusic(){
         yield return new WaitForSeconds(.10f);
         Audio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();

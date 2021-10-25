@@ -51,6 +51,15 @@ public class PersistentData : MonoBehaviour
                 break;
         }
     }
+    public void Save(){
+        gameObject.GetComponent<SaveManager>().Save(mallorySave, gregorySave, dexterSave, axelSave);
+    }
+    public void Load(){
+        gameObject.GetComponent<SaveManager>().Load();
+    }
+    public void Reset(){
+        gameObject.GetComponent<SaveManager>().Reset();
+    }
     IEnumerator WaitToMoveCamera()
     {
         yield return new WaitForSeconds(0.5f);

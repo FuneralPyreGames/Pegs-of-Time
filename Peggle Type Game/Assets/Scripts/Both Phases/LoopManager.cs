@@ -11,6 +11,7 @@ public class LoopManager : MonoBehaviour
     public TextMeshProUGUI secondsText;
     public PersistentData persistentData;
     public GameObject loopDisplay;
+    public SceneChangeManager sceneChangeManager;
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -18,15 +19,21 @@ public class LoopManager : MonoBehaviour
     public void StartLoop()
     {
         loopDisplay.SetActive(true);
+        seconds = 00;
+        minutes = 5;
         StartCoroutine(LoopTimer());
         persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
         persistentData.loopOn = true;
     }
     public void LoopTimerUp()
     {
+        persistentData.loopOn = false;
         StopAllCoroutines();
         Debug.Log("Loop is over");
         loopDisplay.SetActive(false);
+        persistentData.Save();
+        sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
+        sceneChangeManager.LoadLoopOver();
     }
     public void DisplayLoopText()
     {
@@ -59,8 +66,9 @@ public class LoopManager : MonoBehaviour
         }
         minutesText.text = "";
         minutesText.text += minutes;
-        secondsText.text = "";
-        secondsText.text += seconds;
+        secondsText.text = string.Format("{00}", seconds);
+        //secondsText.text = "";
+        //secondsText.text += seconds;
     }
     IEnumerator LoopTimer()
     {
@@ -68,10 +76,10 @@ public class LoopManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(1);
         StartCoroutine(LoopTimer());
         if (seconds ==  0){
-            minutes -= 1;
             if (minutes == 0){
                 LoopTimerUp();
             }
+            minutes -= 1;
             seconds = 59;
         }
         else{

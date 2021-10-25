@@ -12,10 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c5b07a619b08f409cd73d2404081df, type: 3}
   m_Name: Scene 2
   m_EditorClassIdentifier: 
-  names: []
-  sentences: []
+  names:
+  - Roman
+  - Roman
+  - Roman
+  - Roman
+  - Roman
+  sentences:
+  - You beat me?
+  - "I can\u2019t believe it.\n"
+  - 'You know what, the loop is over.
+
+'
+  - 'Enjoy your life.
+
+'
+  - Goodbye.
   speakerName: 
-  buttonsNeeded: 
+  buttonsNeeded: 0000000000000000000000000000000000000000
   button1TextIf2ButtonsNeeded: 
   button2TextIf2ButtonsNeeded: 
   button1TextIf3ButtonsNeeded: 

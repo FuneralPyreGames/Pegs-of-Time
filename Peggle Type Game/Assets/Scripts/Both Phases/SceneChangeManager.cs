@@ -14,6 +14,7 @@ public class SceneChangeManager : MonoBehaviour
     #region Loaders
     public void StartGame()
     {
+        persistentData.Reset();
         SceneManager.LoadScene("StartOfGame");
     }
     public void LoadPachinkoLevel(string pachinkoLevel){
@@ -50,6 +51,16 @@ public class SceneChangeManager : MonoBehaviour
     {
         SceneManager.LoadScene("Town");
         persistentData.PickLoadSpot(loadspot);
+    }
+    public void LoadTownBasic(){
+        SceneManager.LoadScene("Town");
+    }
+    public void LoadMainMenu(){
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void LoadLoopOver()
+    {
+        SceneManager.LoadScene("LoopOver");
     }
     #endregion
 }

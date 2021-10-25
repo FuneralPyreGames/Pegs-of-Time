@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6606460451803201423}
   - component: {fileID: 6606460451803201408}
+  - component: {fileID: 4273976712847399632}
   m_Layer: 0
   m_Name: PersistentData
   m_TagString: Untagged
@@ -43,3 +44,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7940353d63ff49d39b0d6af013b5b17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PreviousLevel: 
+  positionToLoadIn: {x: 0, y: 0, z: 0}
+  cameraPos: {x: 0, y: 0, z: 0}
+  Player: {fileID: 0}
+  mainCamera: {fileID: 0}
+  cinemachineCamera: {fileID: 0}
+  loopOn: 0
+  comingFromPachinko1: 0
+  pachinkoLevel2Done: 0
+  malloryHelped: 0
+  mallorySave: 0
+  pachinkoLevel3Done: 0
+  gregoryHelped: 0
+  gregorySave: 0
+  pachinkoLevel4Done: 0
+  dexterHelped: 0
+  dexterSave: 0
+  pachinkoLevel5Done: 0
+  axelHelped: 0
+  axelSave: 0
+  pachinkoLevel6Done: 0
+--- !u!114 &4273976712847399632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606460451803201409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66cf77d07bec8499695d2fd823ba5db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistentData: {fileID: 6606460451803201408}
