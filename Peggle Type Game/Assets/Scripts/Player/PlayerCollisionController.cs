@@ -99,6 +99,15 @@ public class PlayerCollisionController : MonoBehaviour
         else if (collision.name == "Noah"){
             collision.GetComponent<NPCHandler>().StartDialogue();
         }
+        else if (collision.name == "Roman"){
+            persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+            if (persistentData.pachinkoLevel6Done == true){
+                collision.GetComponent<NPCHandler>().StartOnCompleteDialogue();
+            }
+            else{
+                collision.GetComponent<NPCHandler>().StartDialogue();
+            }
+        }
 
     }
 }

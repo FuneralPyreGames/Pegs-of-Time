@@ -25,12 +25,12 @@ public class PersistentData : MonoBehaviour
     public bool pachinkoLevel5Done = false;
     public bool axelHelped = false;
     public bool axelSave = false;
+    public bool pachinkoLevel6Done = false;
     #endregion
     void Awake()
     {
        DontDestroyOnLoad(gameObject); 
     }
-
     public void PickLoadSpot(string LastLevel)
     {
         switch (LastLevel){
