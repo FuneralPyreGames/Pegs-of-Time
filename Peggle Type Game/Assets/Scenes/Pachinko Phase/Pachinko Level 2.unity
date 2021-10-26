@@ -658,14 +658,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 505617de3189e4583a5d76eea82e21a1, type: 3}
---- !u!95 &233090302 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4851927087766799517, guid: 505617de3189e4583a5d76eea82e21a1, type: 3}
-  m_PrefabInstance: {fileID: 233090301}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &233090303 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4851927087831542039, guid: 505617de3189e4583a5d76eea82e21a1, type: 3}
+--- !u!1 &233090302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4311995263336711656, guid: 505617de3189e4583a5d76eea82e21a1, type: 3}
   m_PrefabInstance: {fileID: 233090301}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &233090304 stripped
@@ -5274,7 +5269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5648,11 +5643,15 @@ PrefabInstance:
     - target: {fileID: 8800813194675577026, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
       propertyPath: winAnim
       value: 
-      objectReference: {fileID: 233090302}
+      objectReference: {fileID: 0}
     - target: {fileID: 8800813194675577026, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
       propertyPath: failAnim
       value: 
-      objectReference: {fileID: 233090303}
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800813194675577026, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
+      propertyPath: failMenu
+      value: 
+      objectReference: {fileID: 233090302}
     - target: {fileID: 8800813194675577026, guid: 0c5ecd49ddc864fa1bdcbc5999b476c5, type: 3}
       propertyPath: ballsText
       value: 

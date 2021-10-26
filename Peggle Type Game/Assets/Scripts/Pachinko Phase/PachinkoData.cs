@@ -18,6 +18,7 @@ public class PachinkoData : MonoBehaviour
     public SceneChangeManager sceneChangeManager;
     public PersistentData persistentData;
     public int currentLevel;
+    public GameObject failMenu;
     #endregion
     void Awake()
     {
@@ -35,7 +36,6 @@ public class PachinkoData : MonoBehaviour
     }
     public void Win(){
         isAbleToShoot = false;
-        winAnim.SetTrigger("GameWon");
         sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
         persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
         switch (currentLevel)
@@ -67,7 +67,8 @@ public class PachinkoData : MonoBehaviour
     }
     public void Lose(){
         isAbleToShoot = false;
-        failAnim.SetTrigger("HasFailed");
+        LeanTween.scale(failMenu, new Vector3 (1,1,1), 2f);
+
     }
     public void SetGoldPegCount(){
         goldPegText.text = "";
@@ -76,9 +77,10 @@ public class PachinkoData : MonoBehaviour
     }
     public void SetBallCount()
     {
+
         ballsText.text = "";
         ballsText.text += balls;
-        ballsText.text += " Balls";
+        ballsText.text += " Balls";  
     }
     public void SetAbleToShoot()
     {

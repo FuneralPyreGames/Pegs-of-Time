@@ -20,8 +20,11 @@ public class PlayerCollisionController : MonoBehaviour
                     if (persistentData.malloryHelped == false){
                         collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
                     }
-                    
                 }
+            }
+            else if (persistentData.mallorySave == true)
+            {
+                collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
             }
         }
         else if (collision.name == "Gregory")
@@ -43,8 +46,11 @@ public class PlayerCollisionController : MonoBehaviour
                     {
                         collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
                     }
-
                 }
+            else if (persistentData.gregorySave == true)
+            {
+                collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
+            }
             }
         }
         else if (collision.name == "Dexter")
@@ -66,8 +72,11 @@ public class PlayerCollisionController : MonoBehaviour
                     {
                         collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
                     }
-
                 }
+            else if (persistentData.dexterSave == true)
+            {
+                collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
+            }
             }
         }
         else if (collision.name == "Axel")
@@ -91,6 +100,10 @@ public class PlayerCollisionController : MonoBehaviour
                     }
 
                 }
+            }
+            else if (persistentData.axelSave == true)
+            {
+                collision.GetComponent<NPCHandler>().StartIfCompleteDialogue();
             }
         }
         else if (collision.name == "Beth"){

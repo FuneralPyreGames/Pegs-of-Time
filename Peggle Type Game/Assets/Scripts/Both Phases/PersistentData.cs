@@ -55,6 +55,10 @@ public class PersistentData : MonoBehaviour
         gameObject.GetComponent<SaveManager>().Save(mallorySave, gregorySave, dexterSave, axelSave);
     }
     public void Load(){
+        malloryHelped = false;
+        gregoryHelped = false;
+        dexterHelped = false;
+        axelHelped = false;
         gameObject.GetComponent<SaveManager>().Load();
     }
     public void Reset(){

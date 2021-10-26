@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Rigidbody2D rB;
     [SerializeField] Vector2 movement;
     public bool playerAbleToMove = true;
+    public Animator playerAnim;
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -16,6 +18,9 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
+        playerAnim.SetFloat("Horizontal", movement.x);
+        playerAnim.SetFloat("Vertical", movement.y);
+        playerAnim.SetFloat("Magnitude", movement.magnitude);
         if (playerAbleToMove == true)
         {
             rB.MovePosition(rB.position + movement * speed * Time.fixedDeltaTime);

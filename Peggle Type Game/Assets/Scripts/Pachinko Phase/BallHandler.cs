@@ -7,6 +7,7 @@ public class BallHandler : MonoBehaviour
     [SerializeField]float maxSpeed = 3;
     [SerializeField]Rigidbody2D ballRb;
     public PachinkoData pachinkoData;
+    int numberOfHits = 0;
     // Start is called before the first frame update
     void Awake()
     {
@@ -22,6 +23,7 @@ public class BallHandler : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        numberOfHits += 1;
         if (collision.gameObject.name == "Left Wall")
         {
             pachinkoData.PlayAudio(2);
@@ -37,9 +39,17 @@ public class BallHandler : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision){
         if (collision.name == "BallCollider"){
-            pachinkoData.PlayAudio(4);
-            pachinkoData.SetAbleToShoot();
-            Destroy(gameObject);
+            if(numberOfHits > 0){
+                pachinkoData.PlayAudio(4);
+                pachinkoData.SetAbleToShoot();
+                Destroy(gameObject);
+            }
+            else if (numberOfHits == 0)
+            {
+                pachinkoData.balls += 1;
+                pachinkoData.SetBallCount();
+                pachinkoData.SetAbleToShoot();
+            }
         }
         if (collision.name == "FreeBallBucket Collider"){
             pachinkoData.PlayAudio(3);

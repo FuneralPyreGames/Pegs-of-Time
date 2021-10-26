@@ -7,6 +7,7 @@ public class PegHandler : MonoBehaviour
     [SerializeField]Animator pegAnim;
     private PachinkoData pachinkoData;
     public bool GoldPeg;
+    public int beenHit = 0;
     void Start()
     {
         pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();
@@ -17,6 +18,7 @@ public class PegHandler : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        beenHit += 1;
         if (GoldPeg == false){
             pachinkoData.PlayAudio(1);
         }
@@ -32,7 +34,10 @@ public class PegHandler : MonoBehaviour
         pachinkoData.CheckPegState(GoldPeg);
     }
     IEnumerator NewPegDisappear(){
+        if (beenHit == 1)
+        {
         CheckPegState();
+        }
         StartCoroutine(TurnOffCollider());
         pegAnim = gameObject.GetComponent<Animator>();
         pegAnim.SetTrigger("Peg Hit");
