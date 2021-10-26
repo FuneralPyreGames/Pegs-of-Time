@@ -272,3 +272,193 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Domain Reload Profiling:
+	ReloadAssembly (952ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.7 MB.
+System memory in use after: 144.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3920.
+Total: 4.033300 ms (FindLiveObjects: 0.692200 ms CreateObjectMapping: 0.352000 ms MarkObjects: 2.973500 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2315.596608 seconds.
+  path: Assets/LeanTween/Examples/Textures/PowerUpStar.png
+  artifactKey: Guid(70141d51621e24facbca9196bbde84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/PowerUpStar.png using Guid(70141d51621e24facbca9196bbde84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b4630d06645d453600f9c1870c7dbe') in 0.067244 seconds 
+  Import took 0.072374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003278 seconds.
+  path: Assets/LeanTween/Examples/Textures/PowerUpStar.png
+  artifactKey: Guid(70141d51621e24facbca9196bbde84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/PowerUpStar.png using Guid(70141d51621e24facbca9196bbde84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b4630d06645d453600f9c1870c7dbe') in 0.011511 seconds 
+  Import took 0.016234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.310310 seconds.
+  path: Assets/Scenes/Other/MainMenu.unity
+  artifactKey: Guid(0e0ee6044b2344e6e9dbf9fb209bae0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Other/MainMenu.unity using Guid(0e0ee6044b2344e6e9dbf9fb209bae0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e375108d1b6373606305ac45c11388e') in 0.002297 seconds 
+  Import took 0.007889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.609848 seconds.
+  path: Assets/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg
+  artifactKey: Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg using Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff04243ad0198252ee66a82b4342d78c') in 0.009349 seconds 
+  Import took 0.014236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LeanTween/Examples/Textures/Dude2d.png
+  artifactKey: Guid(5f7fa9a7940a64e79b5a42d9f661d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/Dude2d.png using Guid(5f7fa9a7940a64e79b5a42d9f661d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b07fff51d35930044f32963d692a0d') in 0.016230 seconds 
+  Import took 0.020479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/LeanTween/Examples/Textures/HorizontalGradient.jpg
+  artifactKey: Guid(547f51a8eea214bd7a5863356fd25619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/HorizontalGradient.jpg using Guid(547f51a8eea214bd7a5863356fd25619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d63a0298a705673ab3210a4e49d295c') in 0.009048 seconds 
+  Import took 0.013591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/LeanTween/Examples/Textures/Dude2d.png
+  artifactKey: Guid(5f7fa9a7940a64e79b5a42d9f661d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/Dude2d.png using Guid(5f7fa9a7940a64e79b5a42d9f661d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b07fff51d35930044f32963d692a0d') in 0.017484 seconds 
+  Import took 0.021920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg
+  artifactKey: Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg using Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff04243ad0198252ee66a82b4342d78c') in 0.007873 seconds 
+  Import took 0.012268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/LeanTween/Examples/Textures/DustCloud.png
+  artifactKey: Guid(c4c548a339b4d41a590928c0c98934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/DustCloud.png using Guid(c4c548a339b4d41a590928c0c98934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2eacb7e3284514dbafe3bf224cb4f8') in 0.016256 seconds 
+  Import took 0.020709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.384225 seconds.
+  path: Assets/Tilemaps/Interior/Road/roadie.png
+  artifactKey: Guid(73bc47b20bb4041d89f93b30725f869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Interior/Road/roadie.png using Guid(73bc47b20bb4041d89f93b30725f869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c618939bdf2868a756eccb9a4822cdf') in 0.897658 seconds 
+  Import took 0.903782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tilemaps/Interior/Road/roads2W.png
+  artifactKey: Guid(ec4b8ab3e578b44e198f1af5e2433108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Interior/Road/roads2W.png using Guid(ec4b8ab3e578b44e198f1af5e2433108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6484ceeb3034e0c1c23f4ffabdaa7b06') in 0.061267 seconds 
+  Import took 0.067852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sprites/generic-rpg-pack_v0.4_(alpha-release)_vacaroxa/rpg-pack/chars/sensei/sensei.png
+  artifactKey: Guid(fe303977d32fb404aa560e73dea981ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/generic-rpg-pack_v0.4_(alpha-release)_vacaroxa/rpg-pack/chars/sensei/sensei.png using Guid(fe303977d32fb404aa560e73dea981ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603f1f452cc2e8171ffaf42ab7f76c83') in 0.008412 seconds 
+  Import took 0.014013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.192862 seconds.
+  path: Assets/Sprites/generic-rpg-pack_v0.4_(alpha-release)_vacaroxa/rpg-pack/mobs/slime-green.png
+  artifactKey: Guid(d7bd889f981ce4fbb9dccc3a9af97f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/generic-rpg-pack_v0.4_(alpha-release)_vacaroxa/rpg-pack/mobs/slime-green.png using Guid(d7bd889f981ce4fbb9dccc3a9af97f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee090d0553ada490c25454539144946d') in 0.010627 seconds 
+  Import took 0.015741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/generic-rpg-pack_v0.4_(alpha-release)_vacaroxa/rpg-pack/mobs/slime-orange.png
+  artifactKey: Guid(e2536fa0e186a4bda985dcb748fc162d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/generic-rpg-pack_v0.4_(alpha-release)_vacaroxa/rpg-pack/mobs/slime-orange.png using Guid(e2536fa0e186a4bda985dcb748fc162d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9603fbf645342b63fa17ed257b3c7bb7') in 0.013166 seconds 
+  Import took 0.017890 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.4 MB.
+System memory in use after: 79.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3930.
+Total: 3.651500 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.128900 ms MarkObjects: 3.255400 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
