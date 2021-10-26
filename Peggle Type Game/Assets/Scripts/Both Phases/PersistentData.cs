@@ -67,9 +67,9 @@ public class PersistentData : MonoBehaviour
     IEnumerator WaitToMoveCamera()
     {
         yield return new WaitForSeconds(0.5f);
-        cameraPos = new Vector3(95, 3, -10f);
+        cameraPos = new Vector3(58, 3, -10f);
         mainCamera = GameObject.Find("Main Camera");
-        LeanTween.move(mainCamera, cameraPos, .00000001f);
+        LeanTween.move(mainCamera, cameraPos, .2f);
     }
     IEnumerator GiveLoadingTime()
     {
