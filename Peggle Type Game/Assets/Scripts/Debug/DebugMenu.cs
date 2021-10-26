@@ -8,9 +8,13 @@ public class DebugMenu : MonoBehaviour
     public PachinkoData pachinkoData;
     public LoopManager loopManager;
     public PersistentData persistentData;
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     void Update()
     {
-        if (Input.GetKeyDown("E")){
+        if (Input.GetKeyDown("e")){
             debugMenu.SetActive(true);
         }
     }
