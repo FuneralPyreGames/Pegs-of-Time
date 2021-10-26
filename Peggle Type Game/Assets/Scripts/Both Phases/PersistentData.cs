@@ -34,7 +34,7 @@ public class PersistentData : MonoBehaviour
     public void PickLoadSpot(string LastLevel)
     {
         switch (LastLevel){
-            case "Start Of Town":
+            case "Pachinko Level 1":
                 StartCoroutine(WaitToMoveCamera());
                 break;
             case "Pachinko Level 2":
