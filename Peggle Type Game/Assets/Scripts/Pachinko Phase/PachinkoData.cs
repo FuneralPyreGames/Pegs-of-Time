@@ -101,5 +101,6 @@ public class PachinkoData : MonoBehaviour
     IEnumerator AwakeTime(){
         yield return new WaitForSeconds(.25f);
         pachinkoAudio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();
+        pachinkoAudio.PlayPachinkoMusic(currentLevel);
     }
 }

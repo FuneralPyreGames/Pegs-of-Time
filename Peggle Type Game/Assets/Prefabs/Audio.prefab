@@ -46,7 +46,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -147,4 +147,14 @@ MonoBehaviour:
   freeBallSFX: {fileID: 8300000, guid: a54b42bc25f1576428b63ac965e91c24, type: 3}
   ballDespawnSFX: {fileID: 8300000, guid: f200e989c648c1548bd6023a42ddbe66, type: 3}
   goldPegHitSFX: {fileID: 8300000, guid: 171605c33fa3d4fcc8472a416c748760, type: 3}
-  mainMenuSong: {fileID: 8300000, guid: f200e989c648c1548bd6023a42ddbe66, type: 3}
+  mainMenuSong: {fileID: 8300000, guid: ce165deef16cd4e9092a24b7f7326aca, type: 3}
+  townSong: {fileID: 8300000, guid: 3d85a51b576264e88912ad945f3ff088, type: 3}
+  pachinkoLevel1Song: {fileID: 8300000, guid: ae21f7fcf2400489e964f156c949182c, type: 3}
+  pachinkoLevel2Song: {fileID: 8300000, guid: c1e8976355263478394d6785ba6a0b08, type: 3}
+  pachinkoLevel3Song: {fileID: 8300000, guid: 4358206e392344911bd4ace07aae5110, type: 3}
+  pachinkoLevel4Song: {fileID: 8300000, guid: c64ef22af4c61457b9cae9f030b3054e, type: 3}
+  pachinkoLevel5Song: {fileID: 8300000, guid: 42a57494113f94e03a1ee420c226efaf, type: 3}
+  pachinkoLevel6Song: {fileID: 8300000, guid: d3fe2918f9eeb4bcba8acf19204f721f, type: 3}
+  startOfGameSong: {fileID: 8300000, guid: 1b871cc39720e4ff2a00a70da654f1b3, type: 3}
+  romanLabSong: {fileID: 8300000, guid: 009267299f1f04de1bfe201704b13a5d, type: 3}
+  endOfGameSong: {fileID: 8300000, guid: 5eafdce27e59548a99bec5af6c6e33e7, type: 3}

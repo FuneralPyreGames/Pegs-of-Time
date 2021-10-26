@@ -12,6 +12,7 @@ public class StartOfGameHandler : MonoBehaviour
     public GameObject Blackout;
     public bool comingFromPachinko1 = false;
     public PersistentData persistentData;
+    public Audio Audio;
     #endregion
     void Awake()
     {
@@ -80,6 +81,8 @@ public class StartOfGameHandler : MonoBehaviour
     IEnumerator LoadBlackoutHandler()
     {
         yield return new WaitForSeconds(1f);
+        Audio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();
+        Audio.PlayStartOfGameMusic();
         LeanTween.scale(Blackout, new Vector3(0, 0, 0), 1.4f);
         StartCoroutine(FailsafeWait());
     }

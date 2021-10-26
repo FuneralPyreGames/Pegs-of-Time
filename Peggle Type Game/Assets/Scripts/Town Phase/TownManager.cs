@@ -6,6 +6,7 @@ public class TownManager : MonoBehaviour
 {
     public PersistentData persistentData;
     public LoopManager loopManager;
+    public Audio pachinkoAudio;
     private void Awake()
     {
         StartCoroutine(StartUpTown());
@@ -21,6 +22,8 @@ public class TownManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.25f);
         persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
+        pachinkoAudio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();
+        pachinkoAudio.PlayTownMusic();
         persistentData.Load();
         CheckLoopState();
     }

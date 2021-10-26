@@ -16,6 +16,16 @@ public class Audio : MonoBehaviour
     #endregion
     #region Song Audio Clips
     [SerializeField] AudioClip mainMenuSong;
+    [SerializeField] AudioClip townSong;
+    [SerializeField] AudioClip pachinkoLevel1Song;
+    [SerializeField] AudioClip pachinkoLevel2Song;
+    [SerializeField] AudioClip pachinkoLevel3Song;
+    [SerializeField] AudioClip pachinkoLevel4Song;
+    [SerializeField] AudioClip pachinkoLevel5Song;
+    [SerializeField] AudioClip pachinkoLevel6Song;
+    [SerializeField] AudioClip startOfGameSong;
+    [SerializeField] AudioClip romanLabSong;
+    [SerializeField] AudioClip endOfGameSong;
     #endregion
     void Start()
     {
@@ -49,6 +59,55 @@ public class Audio : MonoBehaviour
     public void PlayMainMenuMusic(){
         audioSource.clip = mainMenuSong;
         audioSource.Play();
+    }
+    public void PlayStartOfGameMusic()
+    {
+        audioSource.clip = startOfGameSong;
+        audioSource.Play();
+    }
+    public void PlayRomanLabMusic()
+    {
+        audioSource.clip = romanLabSong;
+        audioSource.Play();
+    }
+    public void PlayEndOfGameMusic()
+    {
+        audioSource.clip = endOfGameSong;
+        audioSource.Play();
+    }
+    public void PlayTownMusic()
+    {
+        audioSource.clip = townSong;
+        audioSource.Play();
+    }
+    public void PlayPachinkoMusic(int level){
+        switch (level)
+        {
+            case 1:
+                audioSource.clip = pachinkoLevel1Song;
+                audioSource.Play();
+                break;
+            case 2:
+                audioSource.clip = pachinkoLevel2Song;
+                audioSource.Play();
+                break;
+            case 3:
+                audioSource.clip = pachinkoLevel3Song;
+                audioSource.Play();
+                break;
+            case 4:
+                audioSource.clip = pachinkoLevel4Song;
+                audioSource.Play();
+                break;
+            case 5:
+                audioSource.clip = pachinkoLevel5Song;
+                audioSource.Play();
+                break;
+            case 6:
+                audioSource.clip = pachinkoLevel6Song;
+                audioSource.Play();
+                break;
+        }
     }
     #endregion
 }

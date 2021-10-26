@@ -12,6 +12,7 @@ public class LoopManager : MonoBehaviour
     public PersistentData persistentData;
     public GameObject loopDisplay;
     public SceneChangeManager sceneChangeManager;
+    public Audio Audio; 
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -32,6 +33,8 @@ public class LoopManager : MonoBehaviour
         loopDisplay.SetActive(false);
         persistentData.Save();
         sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
+        Audio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();
+        Audio.PlayMainMenuMusic();
         sceneChangeManager.LoadLoopOver();
     }
     public void StopLoop()

@@ -8,9 +8,13 @@ public class EndOfGameManager : MonoBehaviour
     public GameObject Car;
     public GameObject Blackout;
     public SceneChangeManager sceneChangeManager;
+    public Audio Audio;
     void Awake()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogueObject);
+        Audio = GameObject.Find("Audio(Clone)").GetComponent<Audio>();
+        Audio.PlayEndOfGameMusic();
+
     }
     public void EndingCutscene()
     {
@@ -26,6 +30,7 @@ public class EndOfGameManager : MonoBehaviour
         LeanTween.scale(Blackout, new Vector3(1.2f,1.2f,1.2f), 0.375f);
         yield return new WaitForSeconds(.375f);
         sceneChangeManager = GameObject.Find("SceneChangeManager(Clone)").GetComponent<SceneChangeManager>();
+        Audio.PlayMainMenuMusic();
         sceneChangeManager.LoadTheEnd();
     }
 }
