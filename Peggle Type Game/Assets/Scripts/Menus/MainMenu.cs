@@ -11,8 +11,16 @@ public class MainMenu : MonoBehaviour
     public GameObject creditsWindow;
     public SceneChangeManager sceneChangeManager;
     public Audio Audio;
+    public GameObject debugTrigger;
     private void Awake() {
         StartCoroutine(DelayedMainMenuMusic());
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown("escape"))
+        {
+            debugTrigger.SetActive(true);
+        }
     }
     public void OpenOptions()
     {
