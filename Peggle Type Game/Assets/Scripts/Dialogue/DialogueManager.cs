@@ -37,6 +37,7 @@ public class DialogueManager : MonoBehaviour
     public DialogueObject buttonTwoDialogueObject;
     public DialogueObject buttonThreeDialogueObject;
     public DialogueObject otherReference;
+    public LoopManager loopManager;
     #endregion
     #region CoreDialogueFunctions
     void Start()
@@ -173,6 +174,8 @@ public class DialogueManager : MonoBehaviour
         }
         if (actionOnEnd == 12)//Goes to end of game
         {
+            loopManager = GameObject.Find("LoopManager(Clone)").GetComponent<LoopManager>();
+            loopManager.StopLoop();
             sceneChangeManager.LoadEndOfGame();
         }
         if (actionOnEnd == 13)//ends the game proper

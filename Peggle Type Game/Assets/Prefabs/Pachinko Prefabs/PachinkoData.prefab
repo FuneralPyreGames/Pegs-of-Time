@@ -53,6 +53,11 @@ MonoBehaviour:
   winAnim: {fileID: 0}
   pachinkoAudio: {fileID: 0}
   pegAssigner: {fileID: 8800813194675577024}
+  sceneChangeManager: {fileID: 0}
+  persistentData: {fileID: 0}
+  currentLevel: 0
+  failMenu: {fileID: 0}
+  goldPegSprite: {fileID: 1671936887287197812, guid: 28eee6ebac4cb403aabedb16de24ccbd, type: 3}
 --- !u!114 &8800813194675577024
 MonoBehaviour:
   m_ObjectHideFlags: 0

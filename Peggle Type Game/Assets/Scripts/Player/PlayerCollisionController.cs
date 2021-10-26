@@ -9,7 +9,7 @@ public class PlayerCollisionController : MonoBehaviour
     {
         if (collision.name == "Mallory"){
             persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
-            if (persistentData.pachinkoLevel2Done == false){
+            if (persistentData.pachinkoLevel2Done == false && persistentData.mallorySave == false){
                 collision.GetComponent<NPCHandler>().StartDialogue();
             }
             else if (persistentData.pachinkoLevel2Done == true){
@@ -30,7 +30,7 @@ public class PlayerCollisionController : MonoBehaviour
         else if (collision.name == "Gregory")
         {
             persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
-            if (persistentData.pachinkoLevel3Done == false)
+            if (persistentData.pachinkoLevel3Done == false && persistentData.gregorySave == false)
             {
                 collision.GetComponent<NPCHandler>().StartDialogue();
             }
@@ -56,7 +56,7 @@ public class PlayerCollisionController : MonoBehaviour
         else if (collision.name == "Dexter")
         {
             persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
-            if (persistentData.pachinkoLevel4Done == false)
+            if (persistentData.pachinkoLevel4Done == false && persistentData.dexterSave == false)
             {
                 collision.GetComponent<NPCHandler>().StartDialogue();
             }
@@ -82,7 +82,7 @@ public class PlayerCollisionController : MonoBehaviour
         else if (collision.name == "Axel")
         {
             persistentData = GameObject.Find("PersistentData(Clone)").GetComponent<PersistentData>();
-            if (persistentData.pachinkoLevel5Done == false)
+            if (persistentData.pachinkoLevel5Done == false && persistentData.axelSave == false)
             {
                 collision.GetComponent<NPCHandler>().StartDialogue();
             }

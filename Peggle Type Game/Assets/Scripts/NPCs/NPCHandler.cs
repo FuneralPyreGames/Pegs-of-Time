@@ -29,6 +29,6 @@ public class NPCHandler : MonoBehaviour
     }
     public void MovePosition()
     {
-        gameObject.transform.position = movementPoint.transform.position;
+        LeanTween.move(gameObject, movementPoint.transform.position, 1.25f);
     }
 }

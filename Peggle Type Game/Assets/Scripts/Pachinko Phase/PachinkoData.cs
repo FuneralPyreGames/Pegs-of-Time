@@ -19,6 +19,7 @@ public class PachinkoData : MonoBehaviour
     public PersistentData persistentData;
     public int currentLevel;
     public GameObject failMenu;
+    public Sprite goldPegSprite;
     #endregion
     void Awake()
     {

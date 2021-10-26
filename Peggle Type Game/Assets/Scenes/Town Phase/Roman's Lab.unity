@@ -1862,7 +1862,7 @@ MonoBehaviour:
   rB: {fileID: 860719225}
   movement: {x: 0, y: 0}
   playerAbleToMove: 0
-  playerAnim: {fileID: 0}
+  playerAnim: {fileID: 860719230}
 --- !u!212 &860719228
 SpriteRenderer:
   m_ObjectHideFlags: 0

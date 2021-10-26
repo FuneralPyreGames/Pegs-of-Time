@@ -8,13 +8,16 @@ public class PegHandler : MonoBehaviour
     private PachinkoData pachinkoData;
     public bool GoldPeg;
     public int beenHit = 0;
+    public Sprite goldPeg;
     void Start()
     {
         pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();
     }
     public void setGoldPeg(){
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        sr.color = new Color(225,228,0,0);
+        pachinkoData = GameObject.Find("PachinkoData").GetComponent<PachinkoData>();
+        goldPeg = pachinkoData.goldPegSprite;
+        sr.sprite = goldPeg;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
