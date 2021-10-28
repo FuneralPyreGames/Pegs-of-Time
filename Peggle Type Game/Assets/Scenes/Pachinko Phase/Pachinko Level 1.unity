@@ -2390,10 +2390,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peg (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 8838911325866566983, guid: 442f2487a45ff48498937903371562d6, type: 3}
-      propertyPath: m_SortingOrder
-      value: 32767
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 442f2487a45ff48498937903371562d6, type: 3}
 --- !u!4 &524186987 stripped
@@ -5952,10 +5948,6 @@ PrefabInstance:
     - target: {fileID: 8838911325866566981, guid: 442f2487a45ff48498937903371562d6, type: 3}
       propertyPath: m_Name
       value: Peg (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838911325866566983, guid: 442f2487a45ff48498937903371562d6, type: 3}
-      propertyPath: m_SortingOrder
-      value: 32767
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 442f2487a45ff48498937903371562d6, type: 3}
