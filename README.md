@@ -1,4 +1,4 @@
-# Peggle Type Game
+# Pegs of Time
 You've got to get to your show. Just one town over and you're at the event space. And then suddenly the wall hits.
 
 Welcome to the town of Silverford! Here, you can meet all of our relatively needy residents, who seem to always have a task they need you to help with. What's that, you're asking how to help them? Well, due to the brain damage from the crash, what is helping in the world will look like a Peggle level. Cool, right? Oh, and more, you seem to keep fainting every 5 minutes, only to find yourself back where you were before. I guess you might want to think about escaping, heh.
